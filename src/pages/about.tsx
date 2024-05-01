@@ -5,10 +5,13 @@ import { FaCheckCircle } from "react-icons/fa";
 import Badges from "@/components/Badges";
 import AboutMidSection from "@/components/AboutMidSection";
 import Footer from "@/components/Footer";
+import { Montserrat } from "next/font/google";
+
+const montserrat = Montserrat({ subsets: ["latin"] });
 
 const About = () => {
   return (
-    <div className="w-full flex flex-col">
+    <div className={`flex w-full flex-col ${montserrat.className}`}>
       <NavBar />
       <div className="px-14 relative ServicesHeight w-full py-20">
         <div

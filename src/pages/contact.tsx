@@ -2,6 +2,9 @@ import Footer from "@/components/Footer";
 import NavBar from "@/components/NavBar";
 import { useState } from "react";
 import Map from "@/components/Map";
+import { Montserrat } from "next/font/google";
+
+const montserrat = Montserrat({ subsets: ["latin"] });
 
 const Contact = () => {
   const [topic, setTopic] = useState("");
@@ -21,7 +24,9 @@ const Contact = () => {
   };
 
   return (
-    <div className="w-full flex flex-col bg-gradient-to-br from-gray-50 to-white">
+    <div
+      className={`w-full flex flex-col bg-gradient-to-br from-gray-50 to-white ${montserrat.className}`}
+    >
       <NavBar />
       <div className="w-full px-4 md:px-20 mb-12 gap-8 flex h-auto mt-[5rem] items-center justify-center flex-col md:flex-row">
         <div className="md:w-1/2 w-full flex flex-col gap-3 md:h-[25rem] justify-between flex-grow">

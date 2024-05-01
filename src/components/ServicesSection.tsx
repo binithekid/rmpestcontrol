@@ -6,7 +6,7 @@ import { MdPestControl } from "react-icons/md";
 
 const ServicesSection = () => {
   return (
-    <div className="HeroHeight w-full relative">
+    <div className="HeroHeight  w-full relative">
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
@@ -14,19 +14,19 @@ const ServicesSection = () => {
             "linear-gradient(to left, rgba(240, 253, 250, 0), rgba(22, 101, 52, 1)), url(/herosection.jpeg)",
         }}
       />
-      <div className="absolute px-14 inset-0 items-center flex-col md:flex-row flex">
-        <div className="w-[40%] mr-10 flex flex-col">
-          <h1 className="text-white text-xl font-light">WHAT CAN WE DO</h1>
-          <h1 className="text-white text-4xl font-bold">
+      <div className="absolute md:px-14 px-8 md:py-0 py-6 inset-0 items-center flex-col md:flex-row flex">
+        <div className="md:w-[40%] py-10 w-full items-center md:mr-10 flex flex-col">
+          <h1 className="text-white text-xl">WHAT CAN WE DO</h1>
+          <h1 className="text-white mt-2 text-center text-4xl font-bold">
             HERE ARE A LIST OF SERVICES THAT WE OFFER
           </h1>
         </div>
-        <div className="w-[60%]">
-          <div className="flex w-full gap-4">
-            <div className="w-1/2">
-              <div className="bg-white rounded p-8 gap-3 flex items-center justify-center flex-col">
+        <div className="md:w-[60%] w-full">
+          <div className="flex md:flex-row flex-col w-full gap-4">
+            <div className="md:w-1/2 w-full">
+              <div className="bg-white shadow rounded p-8 gap-3 flex items-center justify-center flex-col">
                 <BsFire className="text-4xl text-green-800" />
-                <p>Heat Treatment</p>
+                <p className="text-xl font-semibold">Heat Treatment</p>
                 <p>
                   At Pest Hub, harnessing heat&apos;s power to eradicate pests,
                   Ensuring a thorough extermination, leaving no unwelcome
@@ -34,10 +34,10 @@ const ServicesSection = () => {
                 </p>
               </div>
             </div>
-            <div className="w-1/2">
-              <div className="bg-white rounded p-8 gap-3 flex items-center justify-center flex-col">
+            <div className="md:w-1/2 w-full">
+              <div className="bg-white shadow rounded p-8 gap-3 flex items-center justify-center flex-col">
                 <MdPestControl className="text-4xl text-green-800" />{" "}
-                <p>Pest Control</p>
+                <p className="text-xl font-semibold">Pest Control</p>
                 <p>
                   At Pest Hub, harnessing heat&apos;s power to eradicate pests,
                   Ensuring a thorough extermination, leaving no unwelcome
@@ -46,11 +46,11 @@ const ServicesSection = () => {
               </div>
             </div>
           </div>
-          <div className="flex w-full gap-4 mt-4">
-            <div className="w-1/2">
-              <div className="bg-white rounded p-8 gap-3 flex items-center justify-center flex-col">
+          <div className="flex md:flex-row mt-4 flex-col w-full gap-4">
+            <div className="md:w-1/2 w-full">
+              <div className="bg-white shadow rounded p-8 gap-3 flex items-center justify-center flex-col">
                 <FaHouseChimney className="text-4xl text-green-800" />{" "}
-                <p>Residential Services</p>
+                <p className="text-xl font-semibold">Residential Services</p>
                 <p>
                   At Pest Hub, harnessing heat&apos;s power to eradicate pests,
                   Ensuring a thorough extermination, leaving no unwelcome
@@ -58,10 +58,10 @@ const ServicesSection = () => {
                 </p>
               </div>
             </div>
-            <div className="w-1/2">
-              <div className="bg-white rounded p-8 gap-3 flex items-center justify-center flex-col">
+            <div className="md:w-1/2 w-full">
+              <div className="bg-white shadow rounded p-8 gap-3 flex items-center justify-center flex-col">
                 <IoBusiness className="text-4xl text-green-800" />{" "}
-                <p>Commercial Services</p>
+                <p className="text-xl font-semibold">Commercial Services</p>
                 <p>
                   At Pest Hub, harnessing heat&apos;s power to eradicate pests,
                   Ensuring a thorough extermination, leaving no unwelcome

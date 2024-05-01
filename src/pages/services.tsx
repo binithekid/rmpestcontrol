@@ -2,10 +2,13 @@ import NavBar from "@/components/NavBar";
 import Image from "next/image";
 import Whatsapp from "../../public/WhatsApp_Logo.svg";
 import ServicesList from "@/components/ServicesList";
+import { Montserrat } from "next/font/google";
+
+const montserrat = Montserrat({ subsets: ["latin"] });
 
 const Services = () => {
   return (
-    <div className="w-full flex flex-col">
+    <div className={`flex w-full flex-col ${montserrat.className}`}>
       <NavBar />
       <div className="px-14 relative border-b ServicesHeight w-full py-20">
         <div

@@ -6,6 +6,12 @@
   height: calc(100vh - 6rem);
 }
 
+@media (max-width: 767px) {
+  .HeroHeight {
+    height: 86rem;
+  }
+}
+
 .ServicesHeight {
   height: calc(100vh - 8rem);
 }

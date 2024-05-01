@@ -35,7 +35,7 @@ const NavBar = () => {
   };
 
   return (
-    <div className="w-full flex flex-col">
+    <div className="w-full hidden md:flex flex-col">
       <div className="w-full justify-between bg-green-800 flex py-4 flex-row">
         <div className="flex flex-row gap-8 px-14">
           <div className="flex flex-row items-center gap-2">
@@ -61,10 +61,12 @@ const NavBar = () => {
         </div>
       </div>
       <div className="flex py-2 justify-between items-center bg-white z-[50] border h-20 flex-row">
-        <div className="px-14 flex -ml-1 flex-row items-center gap-2 ">
-          <Image src={Logo} width={50} alt="Logo" />
-          <p className="font-bold">RM PEST CONTROL</p>
-        </div>
+        <Link href="/">
+          <div className="px-14 hover:opacity-60 transition-all flex -ml-1 flex-row items-center gap-2 ">
+            <Image src={Logo} width={50} alt="Logo" />
+            <p className="font-bold">RM PEST CONTROL</p>
+          </div>
+        </Link>
         <div className="px-14 flex items-center z-50 flex-row gap-10">
           <Link href="/">
             <p className="cursor-pointer transition-all hover:text-green-500">
