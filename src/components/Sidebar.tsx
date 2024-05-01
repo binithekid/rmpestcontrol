@@ -57,7 +57,7 @@ const Sidebar = ({
               </div>
             </div>
           </Link>
-          <Link className="nounderline" href={"/news"}>
+          <Link className="nounderline" href={"/services"}>
             <div
               className="p-3 pl-5 hover:text-[#1b9aa4] ease-in-out duration-300 cursor-pointer"
               onClick={() => setShowSidebar(!showSidebar)}
@@ -78,7 +78,7 @@ const Sidebar = ({
               </div>
             </div>
           </Link>
-          <Link className="nounderline" href={"/opinion"}>
+          <Link className="nounderline" href={"/about"}>
             <div
               className="p-3 pl-5 hover:text-[#1b9aa4] ease-in-out duration-300 cursor-pointer"
               onClick={() => setShowSidebar(!showSidebar)}
@@ -100,7 +100,7 @@ const Sidebar = ({
             </div>
           </Link>
 
-          <Link className="nounderline" href={"/tutorials"}>
+          <Link className="nounderline" href={"/contact"}>
             <div
               className="p-3 pl-5 hover:text-[#1b9aa4] ease-in-out duration-300 cursor-pointer"
               onClick={() => setShowSidebar(!showSidebar)}

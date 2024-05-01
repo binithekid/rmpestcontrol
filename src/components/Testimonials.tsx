@@ -6,7 +6,7 @@ import { FaStar } from "react-icons/fa";
 
 const Testimonials = () => {
   return (
-    <div className="w-full flex px-14 py-20 flex-col bg-gradient-to-br from-white via-slate-50 bg-teal-50">
+    <div className="w-full flex px-8 md:px-14 py-20 flex-col bg-gradient-to-br from-white via-slate-50 bg-teal-50">
       <div className="w-full items-center hidden md:flex flex-row justify-center">
         <h1 className="font-display font-bold text-2xl tracking-normal sm:text-4xl text-gray-800">
           Our Testimonials with
