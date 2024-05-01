@@ -1,0 +1,70 @@
+import NavBar from "@/components/NavBar";
+import Image from "next/image";
+import Whatsapp from "../../public/WhatsApp_Logo.svg";
+import { FaCheckCircle } from "react-icons/fa";
+import Badges from "@/components/Badges";
+import AboutMidSection from "@/components/AboutMidSection";
+import Footer from "@/components/Footer";
+
+const About = () => {
+  return (
+    <div className="w-full flex flex-col">
+      <NavBar />
+      <div className="px-14 relative ServicesHeight w-full py-20">
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{
+            backgroundImage: "url(/aboutbg.jpeg)",
+          }}
+        />
+        <div className="absolute px-14 gap-1 w-1/2 justify-center inset-0 flex-col flex">
+          <h1 className="font-display font-bold text-2xl tracking-normal text-gray-800 sm:text-4xl">
+            About RM Pest Control
+          </h1>
+          <p className="font-light">
+            RM Pestokill provides expert residential and commercial pest control
+            services. With over 10 years worth of experience in pest control
+            services, we provide a specific set of solutions for every customer.
+            We have an expert & proficient set of Pest Controllers for every
+            requirement. Our Services cover interior and exterior pest
+            eradication services for residential and commercial customers.
+          </p>
+          <div className="flex pt-4 gap-2 flex-col">
+            <p className="flex flex-row gap-2 items-center">
+              <FaCheckCircle className="text-green-800 text-xl" />
+              Exceed your expectations
+            </p>
+            <p className="flex flex-row gap-2 items-center">
+              <FaCheckCircle className="text-green-800 text-xl" />
+              Professional Expert
+            </p>
+            <p className="flex flex-row gap-2 items-center">
+              <FaCheckCircle className="text-green-800 text-xl" />
+              Deliver 100% satisfaction
+            </p>
+            <p className="flex flex-row gap-2 items-center">
+              <FaCheckCircle className="text-green-800 text-xl" />
+              Premium support 24/7
+            </p>
+          </div>
+          <div className="flex flex-row pt-6 gap-4">
+            <button className="border border-green-800 py-3 px-3 rounded bg-white text-green-800 font-semibold">
+              Get a free quote
+            </button>
+            <button className="border border-green-800 py-3 px-3 rounded text-white bg-green-800 font-semibold">
+              020 8679 3330
+            </button>
+            <button>
+              <Image src={Whatsapp} alt="Hello" width={45} />
+            </button>
+          </div>
+        </div>
+      </div>
+      <AboutMidSection />
+      <Badges />
+      <Footer />
+    </div>
+  );
+};
+
+export default About;
