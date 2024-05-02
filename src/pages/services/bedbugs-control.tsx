@@ -27,8 +27,8 @@ const BedBugs = () => {
             RM Pestokill Ltd London specialises in expert Bedbug Control
             solutions. Our experienced team is dedicated to swiftly and
             effectively eliminating bedbug infestations, tailored to your
-            specific needs. Don't let bedbugs disrupt your life any longer –
-            contact us today for a consultation and take back control of your
+            specific needs. Don&apos;t let bedbugs disrupt your life any longer
+            – contact us today for a consultation and take back control of your
             space.
           </p>
           <div className="flex flex-row pt-2 gap-4">
