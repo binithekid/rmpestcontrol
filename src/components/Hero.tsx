@@ -2,10 +2,16 @@ import Image from "next/image";
 import HeroImage from "../../public/heroright.png";
 import { FaCheckCircle } from "react-icons/fa";
 import Whatsapp from "../../public/WhatsApp_Logo.svg";
+import Link from "next/link";
 
 const Hero = () => {
+  const handleCall = () => {
+    const phoneNumber = "tel:+442086793330"; // Replace with the desired phone number
+    window.location.href = phoneNumber;
+  };
+
   return (
-    <div className="w-full px-8 md:px-14 flex-col flex-wrap md:flex-row bg-gradient-to-br from-white via-teal-50 bg-teal-100 flex">
+    <div className="w-full px-8 md:px-14 md:py-0 py-20 flex-col flex-wrap md:flex-row bg-gradient-to-br from-white via-teal-50 bg-teal-100 flex">
       <div className="md:w-1/2 w-full md:py-0 py-20 gap-2 justify-center flex flex-col">
         <p className="md:text-2xl text-xl text-gray-700">Welcome To</p>
         <div className="flex flex-row items-center">
@@ -43,10 +49,15 @@ const Hero = () => {
           </p>
         </div>
         <div className="flex flex-row pt-6 gap-4">
-          <button className="border border-green-800 md:text-base text-sm py-1 md:py-3 px-2 md:px-3 rounded bg-white text-green-800 font-semibold">
-            Get a quote
-          </button>
-          <button className="border border-green-800 md:text-base text-sm py-1 md:py-3 px-2 md:px-3  rounded text-white bg-green-800 font-semibold">
+          <Link href="/contact">
+            <button className="border border-green-800 md:text-base text-sm py-3 px-3 md:px-3 rounded bg-white text-green-800 font-semibold">
+              Get a quote
+            </button>
+          </Link>
+          <button
+            onClick={handleCall}
+            className="border border-green-800 md:text-base text-sm py-3 px-3 md:px-3  rounded text-white bg-green-800 font-semibold"
+          >
             020 8679 3330
           </button>
           <button>
