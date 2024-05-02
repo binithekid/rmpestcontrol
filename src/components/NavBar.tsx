@@ -97,33 +97,46 @@ const NavBar = () => {
                   onMouseLeave={handleDropdownLeave}
                 >
                   <ul tabIndex={0} className="text-[13px]">
-                    <li className="px-3 py-2 cursor-pointer transition-all hover:text-green-500">
-                      <a>Bedbugs Control</a>
-                    </li>
-                    <li className="px-3 py-2 cursor-pointer transition-all hover:text-green-500">
-                      <a>Cockroach Control</a>
-                    </li>{" "}
-                    <li className="px-3 py-2 cursor-pointer transition-all hover:text-green-500">
-                      <a>Commercial Control</a>
-                    </li>{" "}
-                    <li className="px-3 py-2 cursor-pointer transition-all hover:text-green-500">
-                      <a>Heat Treatment</a>
-                    </li>
-                    <li className="px-3 py-2 cursor-pointer transition-all hover:text-green-500">
-                      <a>Mosquito Control</a>
-                    </li>
-                    <li className="px-3 py-2 cursor-pointer transition-all hover:text-green-500">
-                      <a>Other Control</a>
-                    </li>
-                    <li className="px-3 py-2 cursor-pointer transition-all hover:text-green-500">
-                      <a>Residential Control</a>
-                    </li>
-                    <li className="px-3 py-2 cursor-pointer transition-all hover:text-green-500">
-                      <a>Rodent Control</a>
-                    </li>
-                    <li className="px-3 py-2 cursor-pointer transition-all hover:text-green-500">
-                      <a>Termite Control</a>
-                    </li>
+                    <Link href="/services/bedbugs-control">
+                      <li className="px-3 py-2 cursor-pointer transition-all hover:text-green-500">
+                        <a>Bedbugs Control</a>
+                      </li>
+                    </Link>
+                    <Link href="/services/cockroach-control">
+                      <li className="px-3 py-2 cursor-pointer transition-all hover:text-green-500">
+                        <a>Cockroach Control</a>
+                      </li>
+                    </Link>
+                    <Link href="/services/commercial-control">
+                      <li className="px-3 py-2 cursor-pointer transition-all hover:text-green-500">
+                        <a>Commercial Control</a>
+                      </li>
+                    </Link>
+                    <Link href="/services/mosquito-control">
+                      <li className="px-3 py-2 cursor-pointer transition-all hover:text-green-500">
+                        <a>Mosquito Control</a>
+                      </li>
+                    </Link>
+                    <Link href="/services/other-control">
+                      <li className="px-3 py-2 cursor-pointer transition-all hover:text-green-500">
+                        <a>Other Control</a>
+                      </li>
+                    </Link>
+                    <Link href="/services/residential-control">
+                      <li className="px-3 py-2 cursor-pointer transition-all hover:text-green-500">
+                        <a>Residential Control</a>
+                      </li>
+                    </Link>
+                    <Link href="/services/rodent-control">
+                      <li className="px-3 py-2 cursor-pointer transition-all hover:text-green-500">
+                        <a>Rodent Control</a>
+                      </li>
+                    </Link>
+                    <Link href="/services/termite-control">
+                      <li className="px-3 py-2 cursor-pointer transition-all hover:text-green-500">
+                        <a>Termite Control</a>
+                      </li>
+                    </Link>
                   </ul>
                 </motion.div>
               )}

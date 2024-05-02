@@ -3,6 +3,7 @@ import NavBar from "@/components/NavBar";
 import { useState } from "react";
 import Map from "@/components/Map";
 import { Montserrat } from "next/font/google";
+import MobileNavBar from "@/components/MobileNavBar";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
@@ -28,10 +29,11 @@ const Contact = () => {
       className={`w-full flex flex-col bg-gradient-to-br from-gray-50 to-white ${montserrat.className}`}
     >
       <NavBar />
+      <MobileNavBar />
       <div className="w-full px-4 md:px-20 mb-12 gap-8 flex h-auto mt-[5rem] items-center justify-center flex-col md:flex-row">
         <div className="md:w-1/2 w-full flex flex-col gap-3 md:h-[25rem] justify-between flex-grow">
           <div>
-            <h1 className="text-left text-gray-800 font-semibold text-3xl lg:text-5xl">
+            <h1 className="font-display font-bold text-3xl tracking-normal text-gray-800 sm:text-4xl">
               Contact Us
             </h1>
             <div className="md:w-3/4">

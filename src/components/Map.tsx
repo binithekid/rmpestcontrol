@@ -46,11 +46,11 @@ const Map = () => {
       <div className="md:w-1/2 flex justify-center flex-col">
         <div>
           <p className="font-light text-gray-500">Where to find us</p>
-          <h1 className="text-left text-gray-800 font-semibold text-3xl lg:text-4xl">
+          <h1 className="font-display font-bold text-2xl md:text-3xl tracking-normal text-gray-800">
             Connecting Near and Far
           </h1>
         </div>
-        <div className="flex mt-3 flex-col gap-1 font-light text-gray-500">
+        <div className="flex mt-1 flex-col gap-1 font-light text-gray-500">
           <p>86 Huntingdon Close</p>
           <p>Mitcham, Surrey</p>
           <p>CR4 1XL</p>

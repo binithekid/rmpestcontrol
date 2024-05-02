@@ -13,12 +13,12 @@ import Link from "next/link";
 const ServicesList = () => {
   return (
     <div>
-      <div className="px-14 py-20 flex flex-col bg-gradient-to-b from-white via-gray-50 bg-gray-200">
-        <h1 className="font-display font-bold text-2xl text-center tracking-normal text-gray-800 sm:text-4xl">
+      <div className="md:px-14 px-4 py-8 md:py-20 flex flex-col bg-gradient-to-b from-white via-gray-50 bg-gray-200">
+        <h1 className="font-display font-bold text-xl text-center tracking-normal text-gray-800 sm:text-3xl">
           Here are a List of Pest Control Services we Offer
         </h1>
-        <div className="w-full pt-[3rem] flex flex-row gap-3 ">
-          <div className="w-1/3 bg-white rounded justify-between shadow flex flex-col p-6">
+        <div className="w-full pt-6 md:pt-[3rem] flex flex-col md:flex-row gap-6 md:gap-3">
+          <div className="w-full md:w-1/3 bg-white rounded justify-between shadow flex flex-col p-3 md:p-6">
             <div>
               <Image
                 src={BedBug}
@@ -44,7 +44,7 @@ const ServicesList = () => {
             </Link>
           </div>
 
-          <div className="w-1/3 bg-white rounded shadow justify-between flex flex-col p-6">
+          <div className="w-full md:w-1/3 bg-white rounded justify-between shadow flex flex-col p-3 md:p-6">
             <div>
               <Image
                 src={Mouse}
@@ -69,7 +69,7 @@ const ServicesList = () => {
               </button>
             </Link>
           </div>
-          <div className="w-1/3 bg-white rounded shadow justify-between flex flex-col p-6">
+          <div className="w-full md:w-1/3 bg-white rounded justify-between shadow flex flex-col p-3 md:p-6">
             <div>
               <Image
                 src={Termites}
@@ -95,8 +95,8 @@ const ServicesList = () => {
             </Link>
           </div>
         </div>
-        <div className="w-full pt-[3rem] flex flex-row gap-3 ">
-          <div className="w-1/3 bg-white rounded justify-between shadow flex flex-col p-6">
+        <div className="w-full pt-6 md:pt-[3rem] flex flex-col md:flex-row gap-6 md:gap-3">
+          <div className="w-full md:w-1/3 bg-white rounded justify-between shadow flex flex-col p-3 md:p-6">
             <div>
               <Image
                 src={Cockroach}
@@ -122,7 +122,7 @@ const ServicesList = () => {
             </Link>
           </div>
 
-          <div className="w-1/3 bg-white rounded shadow justify-between flex flex-col p-6">
+          <div className="w-full md:w-1/3 bg-white rounded justify-between shadow flex flex-col p-3 md:p-6">
             <div>
               <Image
                 src={Mosquito}
@@ -147,7 +147,7 @@ const ServicesList = () => {
               </button>
             </Link>
           </div>
-          <div className="w-1/3 bg-white rounded shadow justify-between flex flex-col p-6">
+          <div className="w-full md:w-1/3 bg-white rounded justify-between shadow flex flex-col p-3 md:p-6">
             <div>
               <Image
                 src={Other}
@@ -173,11 +173,11 @@ const ServicesList = () => {
             </Link>
           </div>
         </div>
-        <h1 className="font-display font-bold text-2xl pt-20 text-center tracking-normal text-gray-800 sm:text-4xl">
+        <h1 className="font-display font-bold text-xl pt-10 md:pt-20 text-center tracking-normal text-gray-800 sm:text-3xl">
           Residential & Commercial Pest Control Services
         </h1>
-        <div className="w-full pt-[3rem] items-center justify-center flex flex-row gap-3 ">
-          <div className="w-1/3 bg-white rounded justify-between shadow flex flex-col p-6">
+        <div className="w-full pt-6 md:pt-[3rem] items-center justify-center flex flex-col md:flex-row gap-6 md:gap-3">
+          <div className="w-full md:w-1/3 bg-white rounded justify-between shadow flex flex-col p-3 md:p-6">
             <div>
               <Image
                 src={Commercial}
@@ -202,7 +202,7 @@ const ServicesList = () => {
               </button>
             </Link>
           </div>
-          <div className="w-1/3 bg-white rounded justify-between shadow flex flex-col p-6">
+          <div className="w-full md:w-1/3 bg-white rounded justify-between shadow flex flex-col p-3 md:p-6">
             <div>
               <Image
                 src={Residential}
