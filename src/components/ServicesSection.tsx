@@ -14,7 +14,7 @@ const ServicesSection = () => {
             "linear-gradient(to left, rgba(240, 253, 250, 0), rgba(22, 101, 52, 1)), url(/herosection.jpeg)",
         }}
       />
-      <div className="absolute md:px-14 px-8 md:py-0 py-6 inset-0 justify-center items-center flex-col md:flex-row flex">
+      <div className="absolute md:px-14 px-4 md:py-0 py-6 inset-0 justify-center items-center flex-col md:flex-row flex">
         <div className="md:w-[40%] pb-10 w-full items-center md:mr-10 flex flex-col">
           <h1 className="text-white md:text-xl">WHAT CAN WE DO</h1>
           <h1 className="text-white mt-2 text-center text-2xl md:text-4xl font-bold">

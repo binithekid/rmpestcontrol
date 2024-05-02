@@ -28,7 +28,7 @@ const BedBugs = () => {
             backgroundImage: "url(/bedbugwallpaper.jpeg)",
           }}
         />
-        <div className="absolute px-8 md:px-14 gap-1 w-full md:w-1/2 justify-center inset-0 flex-col flex">
+        <div className="absolute px-4 md:px-14 gap-1 w-full md:w-1/2 justify-center inset-0 flex-col flex">
           <h1 className="font-display font-bold text-3xl tracking-normal text-gray-800 sm:text-4xl">
             Bedbug Pest Control Services
           </h1>
@@ -59,7 +59,7 @@ const BedBugs = () => {
         </div>
       </div>
 
-      <div className="w-full md:gap-3 gap-8 py-20 md:px-14 px-8 flex flex-col md:flex-row">
+      <div className="w-full md:gap-3 gap-8 py-20 md:px-14 px-4  flex flex-col md:flex-row">
         <div className="md:w-1/2 w-full flex flex-col gap-2">
           <h3 className="text-[1.4rem] font-bold">Bedbug Control</h3>
           <p className="font-light">
@@ -106,11 +106,11 @@ const BedBugs = () => {
         </div>
       </div>
       <div className="px-0 bg-green-800 flex justify-center items-center">
-        <h1 className="md:text-3xl text-lg text-center px-20 py-8 md:py-10 font-bold text-white">
+        <h1 className="md:text-3xl text-2xl text-center px-4 py-8 md:py-10 font-bold text-white">
           Get Your Bedbug infestation sorted today!
         </h1>
       </div>
-      <div className="w-full md:gap-3 gap-8 py-20 md:px-14 px-8 flex flex-col md:flex-row ">
+      <div className="w-full md:gap-3 gap-8 py-20 md:px-14 px-4 flex flex-col md:flex-row ">
         <div className="md:w-1/2 w-full flex flex-col gap-2">
           <h3 className="text-[1.4rem] font-bold">Signs</h3>
           <p className="font-light">
@@ -154,7 +154,7 @@ const BedBugs = () => {
           />
         </div>
       </div>
-      <div className="w-full md:gap-8 gap-8 md:py-20 md:px-14 px-8 flex flex-col md:flex-row">
+      <div className="w-full md:gap-8 gap-8 md:py-20 md:px-14 px-4 flex flex-col md:flex-row">
         <div className="md:w-1/2 w-full hidden md:flex">
           <Image
             src={BedBugsTwo}

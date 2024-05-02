@@ -6,7 +6,7 @@ import { IoShieldCheckmarkOutline } from "react-icons/io5";
 
 const MidSection = () => {
   return (
-    <div className="w-full flex py-20 px-8 md:px-14 flex-col">
+    <div className="w-full flex py-20 px-4 md:px-14 flex-col">
       <div className="w-full flex items-center justify-center">
         <p className="font-display text-center font-bold text-2xl tracking-normal sm:text-4xl text-gray-800">
           Your Trusted Partner in Pest Control Excellence

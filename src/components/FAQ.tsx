@@ -42,7 +42,7 @@ const FAQ = () => {
   };
 
   return (
-    <div className="flex w-full py-20 px-8 md:px-14 flex-row flex-wrap items-center justify-center">
+    <div className="flex w-full py-20 px-4 md:px-14 flex-row flex-wrap items-center justify-center">
       <div className="w-full flex gap-2 flex-col">
         <h1 className="mx-2 sm:mx-auto font-display font-bold text-2xl tracking-normal text-gray-800 sm:text-4xl text-center">
           Got Questions? We&apos;ve Got Answers!
