@@ -8,6 +8,7 @@ import Other from "../../public/otherpestcard.png";
 import Commercial from "../../public/commercialcard.png";
 import Residential from "../../public/residpestcard.png";
 import Footer from "./Footer";
+import Link from "next/link";
 
 const ServicesList = () => {
   return (
@@ -36,9 +37,11 @@ const ServicesList = () => {
                 </p>
               </div>
             </div>
-            <button className="mt-4 hover:opacity-70 transition-all font-display font-bold tracking-wide py-3 w-full rounded text-white bg-green-800">
-              LEARN MORE
-            </button>
+            <Link href="/services/bedbugs-control">
+              <button className="mt-4 hover:opacity-70 transition-all font-display font-bold tracking-wide py-3 w-full rounded text-white bg-green-800">
+                LEARN MORE
+              </button>
+            </Link>
           </div>
 
           <div className="w-1/3 bg-white rounded shadow justify-between flex flex-col p-6">

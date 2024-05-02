@@ -1,8 +1,8 @@
 import NavBar from "@/components/NavBar";
 import Image from "next/image";
-import Whatsapp from "../../public/WhatsApp_Logo.svg";
 import ServicesList from "@/components/ServicesList";
 import { Montserrat } from "next/font/google";
+import Whatsapp from "../../public/WhatsApp_Logo.svg";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 

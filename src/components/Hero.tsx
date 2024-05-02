@@ -6,7 +6,7 @@ import Whatsapp from "../../public/WhatsApp_Logo.svg";
 const Hero = () => {
   return (
     <div className="w-full px-8 md:px-14 flex-col flex-wrap md:flex-row bg-gradient-to-br from-white via-teal-50 bg-teal-100 flex">
-      <div className="md:w-1/2 w-full md:py-0 py-10 gap-2 justify-center flex flex-col">
+      <div className="md:w-1/2 w-full md:py-0 py-20 gap-2 justify-center flex flex-col">
         <p className="md:text-2xl text-xl text-gray-700">Welcome To</p>
         <div className="flex flex-row items-center">
           {/* <Image src={Logo} width={70} alt="Hero" /> */}
