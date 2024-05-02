@@ -23,16 +23,16 @@ const BedBugs = () => {
       <MobileNavBar />
       <div className="px-14 relative border-b ServicesHeight w-full py-20">
         <div
-          className="absolute inset-0 bg-cover bg-center"
+          className="absolute inset-0 bg-cover md:brightness-100 brightness-50 md:ml-0 -ml-[30rem] bg-center"
           style={{
             backgroundImage: "url(/bedbugwallpaper.jpeg)",
           }}
         />
         <div className="absolute px-4 md:px-14 gap-1 w-full md:w-1/2 justify-center inset-0 flex-col flex">
-          <h1 className="font-display font-bold text-3xl tracking-normal text-gray-800 sm:text-4xl">
+          <h1 className="font-display font-bold text-3xl tracking-normal text-white  md:text-gray-800 sm:text-4xl">
             Bedbug Pest Control Services
           </h1>
-          <p className="font-light py-1">
+          <p className="md:font-light py-1 font-normal text-gray-100 md:text-black">
             RM Pestokill Ltd London specialises in expert Bedbug Control
             solutions. Our experienced team is dedicated to swiftly and
             effectively eliminating bedbug infestations, tailored to your
@@ -59,10 +59,10 @@ const BedBugs = () => {
         </div>
       </div>
 
-      <div className="w-full md:gap-3 gap-8 py-20 md:px-14 px-4  flex flex-col md:flex-row">
+      <div className="w-full md:gap-3 gap-8 py-10 md:py-20 md:px-14 px-4  flex flex-col md:flex-row">
         <div className="md:w-1/2 w-full flex flex-col gap-2">
           <h3 className="text-[1.4rem] font-bold">Bedbug Control</h3>
-          <p className="font-light">
+          <p className="font-light text-sm md:text-base">
             The bedbug is a human parasite and feeds on human blood. They live
             close to its host. This pest is often not seen but felt by the host.
             Closer inspection around bedding shows signs of their presence.
@@ -77,7 +77,7 @@ const BedBugs = () => {
           </p>
         </div>
         <div className="md:w-1/2 w-full flex md:items-center md:justify-center">
-          <ul className="font-light flex flex-col gap-3">
+          <ul className="font-light flex text-sm md:text-base flex-col gap-3">
             <li className="flex flex-row gap-2 items-center">
               <FaCheckCircle className="text-green-800 text-xl" />{" "}
               <p>Quick Response to all Customer</p>
@@ -110,10 +110,10 @@ const BedBugs = () => {
           Get Your Bedbug infestation sorted today!
         </h1>
       </div>
-      <div className="w-full md:gap-3 gap-8 py-20 md:px-14 px-4 flex flex-col md:flex-row ">
+      <div className="w-full md:gap-3 gap-8 py-10 md:py-20 md:px-14 px-4 flex flex-col md:flex-row ">
         <div className="md:w-1/2 w-full flex flex-col gap-2">
           <h3 className="text-[1.4rem] font-bold">Signs</h3>
-          <p className="font-light">
+          <p className="font-light text-sm md:text-base">
             The adult bedbugs are nearly 4-5 mm long. You can spot bedbugs by
             inspecting your mattress, bed frame, behind headboards, skirting
             board, clothing or soft furnishings. They can even live behind
@@ -124,7 +124,7 @@ const BedBugs = () => {
             attracted by the warmth of sleeping bodies and carbon dioxide from
             the host&apos;s breath.
           </p>
-          <p className="font-light">
+          <p className="font-light text-sm md:text-base">
             {" "}
             A sweet almond smell may be noticeable if there are many bedbugs
             around. RM Pestokill London can do a full inspection and determine
@@ -136,7 +136,7 @@ const BedBugs = () => {
             of bed bugs on your own.
           </p>
           <h3 className="text-[1.4rem] mt-8 font-bold">First Inspection</h3>
-          <p className="font-light">
+          <p className="font-light text-sm md:text-base">
             If you have seen evidence of bed bugs or want to help protect your
             home against bedbugs, RM Pestokill is here to help. Our team will
             inspect your home and all RM Pestokill technicians are highly
@@ -164,7 +164,7 @@ const BedBugs = () => {
         </div>{" "}
         <div className="md:w-1/2 mb-20 w-full">
           <h3 className="text-[1.4rem] font-bold">Treatment</h3>
-          <p className="font-light">
+          <p className="font-light text-sm md:text-base">
             We will recommend the best course of action. Once you are happy with
             our action plan, we will treat your property with a professional and
             effective pesticide that has a prolonged residual effect. Coupled
@@ -172,7 +172,7 @@ const BedBugs = () => {
             and your home will be protected for an extended period of time. Any
             present bed bugs and their eggs will perish very soon!
           </p>{" "}
-          <p className="font-light mt-8">
+          <p className="font-light mt-8 text-sm md:text-base">
             Preparation prior to treatment will involve clearing the floor area
             of belongings, emptying under bed storage and stripping your bed
             sheets from all beds. After this, you must be out of the property
@@ -180,21 +180,21 @@ const BedBugs = () => {
             your home and live life as normal again.
           </p>
           <h3 className="text-[1.4rem] mt-8 font-bold">Second Inspection</h3>
-          <p className="font-light">
+          <p className="font-light text-sm md:text-base">
             We will come back after a few days or 2-3 weeks to inspect your home
             and repeat the same treatment carried out in the first treatment to
             help prevent an infestation. During this visit, we will also check
             if there are any new pests. If we see something new or suspicious,
             we will investigate it.
           </p>{" "}
-          <p className="font-light mt-8">
+          <p className="font-light mt-8 text-sm md:text-base">
             If you have any questions or would like to make a booking, please
             call or email us today. We can come out the same day we call. We
             covering all of London from North, South, East and West London. We
             work 7 days a week from 9:00am – 01:30am. Call us today on 020 8679
             3330 or email us on rmpestokill@gmail.com
           </p>
-          <p className="font-light mt-8">
+          <p className="font-light mt-8 text-sm md:text-base">
             RM Pestokill London is one of the best pest control service
             providers with over 8 years experience in providing successful pest
             eradication.

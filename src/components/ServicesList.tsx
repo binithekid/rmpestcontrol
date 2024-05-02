@@ -63,9 +63,11 @@ const ServicesList = () => {
                 </p>
               </div>
             </div>
-            <button className="mt-4 hover:opacity-70 transition-all font-display font-bold tracking-wide py-3 w-full rounded text-white bg-green-800">
-              LEARN MORE
-            </button>
+            <Link href="/services/rodent-control">
+              <button className="mt-4 hover:opacity-70 transition-all font-display font-bold tracking-wide py-3 w-full rounded text-white bg-green-800">
+                LEARN MORE
+              </button>
+            </Link>
           </div>
           <div className="w-1/3 bg-white rounded shadow justify-between flex flex-col p-6">
             <div>
@@ -86,9 +88,11 @@ const ServicesList = () => {
                 </p>
               </div>
             </div>
-            <button className="mt-4 hover:opacity-70 transition-all font-display font-bold tracking-wide py-3 w-full rounded text-white bg-green-800">
-              LEARN MORE
-            </button>
+            <Link href="/services/termite-control">
+              <button className="mt-4 hover:opacity-70 transition-all font-display font-bold tracking-wide py-3 w-full rounded text-white bg-green-800">
+                LEARN MORE
+              </button>
+            </Link>
           </div>
         </div>
         <div className="w-full pt-[3rem] flex flex-row gap-3 ">
@@ -111,9 +115,11 @@ const ServicesList = () => {
                 </p>
               </div>
             </div>
-            <button className="mt-4 hover:opacity-70 transition-all font-display font-bold tracking-wide py-3 w-full rounded text-white bg-green-800">
-              LEARN MORE
-            </button>
+            <Link href="/services/cockroach-control">
+              <button className="mt-4 hover:opacity-70 transition-all font-display font-bold tracking-wide py-3 w-full rounded text-white bg-green-800">
+                LEARN MORE
+              </button>
+            </Link>
           </div>
 
           <div className="w-1/3 bg-white rounded shadow justify-between flex flex-col p-6">
@@ -135,9 +141,11 @@ const ServicesList = () => {
                 </p>
               </div>
             </div>
-            <button className="mt-4 hover:opacity-70 transition-all font-display font-bold tracking-wide py-3 w-full rounded text-white bg-green-800">
-              LEARN MORE
-            </button>
+            <Link href="/services/mosquito-control">
+              <button className="mt-4 hover:opacity-70 transition-all font-display font-bold tracking-wide py-3 w-full rounded text-white bg-green-800">
+                LEARN MORE
+              </button>
+            </Link>
           </div>
           <div className="w-1/3 bg-white rounded shadow justify-between flex flex-col p-6">
             <div>
@@ -158,9 +166,11 @@ const ServicesList = () => {
                 </p>
               </div>
             </div>
-            <button className="mt-4 hover:opacity-70 transition-all font-display font-bold tracking-wide py-3 w-full rounded text-white bg-green-800">
-              LEARN MORE
-            </button>
+            <Link href="/services/other-control">
+              <button className="mt-4 hover:opacity-70 transition-all font-display font-bold tracking-wide py-3 w-full rounded text-white bg-green-800">
+                LEARN MORE
+              </button>
+            </Link>
           </div>
         </div>
         <h1 className="font-display font-bold text-2xl pt-20 text-center tracking-normal text-gray-800 sm:text-4xl">
@@ -186,9 +196,11 @@ const ServicesList = () => {
                 </p>
               </div>
             </div>
-            <button className="mt-4 hover:opacity-70 transition-all font-display font-bold tracking-wide py-3 w-full rounded text-white bg-green-800">
-              LEARN MORE
-            </button>
+            <Link href="/services/commercial-control">
+              <button className="mt-4 hover:opacity-70 transition-all font-display font-bold tracking-wide py-3 w-full rounded text-white bg-green-800">
+                LEARN MORE
+              </button>
+            </Link>
           </div>
           <div className="w-1/3 bg-white rounded justify-between shadow flex flex-col p-6">
             <div>
@@ -209,9 +221,11 @@ const ServicesList = () => {
                 </p>
               </div>
             </div>
-            <button className="mt-4 hover:opacity-70 transition-all font-display font-bold tracking-wide py-3 w-full rounded text-white bg-green-800">
-              LEARN MORE
-            </button>
+            <Link href="/services/residential-control">
+              <button className="mt-4 hover:opacity-70 transition-all font-display font-bold tracking-wide py-3 w-full rounded text-white bg-green-800">
+                LEARN MORE
+              </button>
+            </Link>
           </div>
         </div>
       </div>

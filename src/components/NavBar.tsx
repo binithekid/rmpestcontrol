@@ -92,7 +92,7 @@ const NavBar = () => {
                   exit={{ opacity: 0, y: -10 }}
                   transition={{ duration: 0.4 }}
                   style={{ left: position.x, top: position.y }}
-                  className="absolute flex-col border-b border-l border-r flex items-center text-2xl justify-center bg-white text-black mt-7 z-0"
+                  className="absolute flex-col border-b border-l border-r flex items-center text-2xl justify-center bg-white text-black pl-1 pr-3 mt-7 z-0"
                   onMouseEnter={handleDropdownEnter}
                   onMouseLeave={handleDropdownLeave}
                 >
@@ -111,6 +111,9 @@ const NavBar = () => {
                     </li>
                     <li className="px-3 py-2 cursor-pointer transition-all hover:text-green-500">
                       <a>Mosquito Control</a>
+                    </li>
+                    <li className="px-3 py-2 cursor-pointer transition-all hover:text-green-500">
+                      <a>Other Control</a>
                     </li>
                     <li className="px-3 py-2 cursor-pointer transition-all hover:text-green-500">
                       <a>Residential Control</a>
