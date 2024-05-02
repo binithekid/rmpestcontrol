@@ -12,6 +12,11 @@ const NavBar = () => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
   const timeoutRef = useRef<any>(null);
 
+  const handleCall = () => {
+    const phoneNumber = "tel:+447546096173"; // Replace with the desired phone number
+    window.location.href = phoneNumber;
+  };
+
   const handleMouseEnter = (e: any) => {
     setIsHovered(true);
     clearTimeout(timeoutRef.current);
@@ -38,18 +43,23 @@ const NavBar = () => {
     <div className="w-full hidden md:flex flex-col">
       <div className="w-full justify-between bg-green-800 flex py-4 flex-row">
         <div className="flex flex-row gap-8 px-14">
-          <div className="flex flex-row items-center gap-2">
+          <div
+            onClick={handleCall}
+            className="flex cursor-pointer transition-all hover:opacity-70 flex-row items-center gap-2"
+          >
             <div className="p-[0.4rem] flex items-center justify-center rounded-full bg-white">
               <FaPhoneAlt className="text-green-800 text-sm" />
             </div>
             <p className="text-sm text-white">020 8679 3330</p>
           </div>
-          <div className="flex flex-row items-center gap-2">
-            <div className="p-[0.4rem] flex items-center justify-center rounded-full bg-white">
-              <MdEmail className="text-green-800 text-sm" />
+          <Link href="mailto:info@rmpestcontrol.com">
+            <div className="flex cursor-pointer transition-all hover:opacity-70 flex-row items-center gap-2">
+              <div className="p-[0.4rem] flex items-center justify-center rounded-full bg-white">
+                <MdEmail className="text-green-800 text-sm" />
+              </div>
+              <p className="text-sm text-white">info@rempestcontrol.co.uk</p>
             </div>
-            <p className="text-sm text-white">info@rempestcontrol.co.uk</p>
-          </div>
+          </Link>
         </div>
         <div className="flex flex-row items-center gap-2 px-14">
           <div className="p-[0.4rem] flex items-center justify-center rounded-full bg-white">

@@ -50,13 +50,13 @@ const Hero = () => {
         </div>
         <div className="flex flex-row pt-6 gap-4">
           <Link href="/contact">
-            <button className="border border-green-800 md:text-base text-sm py-3 px-3 md:px-3 rounded bg-white text-green-800 font-semibold">
+            <button className="border hover:opacity-70 transition-all border-green-800 md:text-base text-sm py-3 px-3 md:px-3 rounded bg-white text-green-800 font-semibold">
               Get a quote
             </button>
           </Link>
           <button
             onClick={handleCall}
-            className="border border-green-800 md:text-base text-sm py-3 px-3 md:px-3  rounded text-white bg-green-800 font-semibold"
+            className="border border-green-800 hover:opacity-70 transition-all md:text-base text-sm py-3 px-3 md:px-3  rounded text-white bg-green-800 font-semibold"
           >
             020 8679 3330
           </button>

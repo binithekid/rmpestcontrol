@@ -1,3 +1,4 @@
+import Badges from "@/components/Badges";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
@@ -7,20 +8,32 @@ import NavBar from "@/components/NavBar";
 import ServicesSection from "@/components/ServicesSection";
 import Testimonials from "@/components/Testimonials";
 import { Montserrat } from "next/font/google";
+import Head from "next/head";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <main className={`flex flex-col ${montserrat.className}`}>
-      <NavBar />
-      <MobileNavBar />
-      <Hero />
-      <MidSection />
-      <ServicesSection />
-      <Testimonials />
-      <FAQ />
-      <Footer />
-    </main>
+    <>
+      <Head>
+        <meta
+          name="description"
+          content="We offer local pest control treatments for rats, mice, bed bugs, cockroaches and other insects."
+        />
+        <title>London Based Pest Control Specialiists | RM Pest Control</title>
+      </Head>
+
+      <main className={`flex flex-col ${montserrat.className}`}>
+        <NavBar />
+        <MobileNavBar />
+        <Hero />
+        <Badges />
+        <MidSection />
+        <ServicesSection />
+        <Testimonials />
+        <FAQ />
+        <Footer />
+      </main>
+    </>
   );
 }
