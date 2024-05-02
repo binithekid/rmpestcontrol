@@ -4,14 +4,23 @@ import Image from "next/image";
 import Whatsapp from "../../../public/WhatsApp_Logo.svg";
 import { FaCheckCircle } from "react-icons/fa";
 import BedBugsImg from "../../../public/bedbugspage.webp";
+import BedBugsTwo from "../../../public/bedbugs2.webp";
 import Footer from "@/components/Footer";
+import MobileNavBar from "@/components/MobileNavBar";
+import Link from "next/link";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 const BedBugs = () => {
+  const handleCall = () => {
+    const phoneNumber = "tel:+442086793330"; // Replace with the desired phone number
+    window.location.href = phoneNumber;
+  };
+
   return (
     <div className={`flex w-full flex-col ${montserrat.className}`}>
       <NavBar />
+      <MobileNavBar />
       <div className="px-14 relative border-b ServicesHeight w-full py-20">
         <div
           className="absolute inset-0 bg-cover bg-center"
@@ -19,8 +28,8 @@ const BedBugs = () => {
             backgroundImage: "url(/bedbugwallpaper.jpeg)",
           }}
         />
-        <div className="absolute px-14 gap-1 w-1/2 justify-center inset-0 flex-col flex">
-          <h1 className="font-display font-bold text-2xl tracking-normal text-gray-800 sm:text-4xl">
+        <div className="absolute px-8 md:px-14 gap-1 w-full md:w-1/2 justify-center inset-0 flex-col flex">
+          <h1 className="font-display font-bold text-3xl tracking-normal text-gray-800 sm:text-4xl">
             Bedbug Pest Control Services
           </h1>
           <p className="font-light py-1">
@@ -31,11 +40,16 @@ const BedBugs = () => {
             – contact us today for a consultation and take back control of your
             space.
           </p>
-          <div className="flex flex-row pt-2 gap-4">
-            <button className="border border-green-800 py-3 px-3 rounded bg-white text-green-800 font-semibold">
-              Get a free quote
-            </button>
-            <button className="border border-green-800 py-3 px-3 rounded text-white bg-green-800 font-semibold">
+          <div className="flex flex-row pt-6 gap-4">
+            <Link href="/contact">
+              <button className="border border-green-800 md:text-base text-sm py-3 px-3 md:px-3 rounded bg-white text-green-800 font-semibold">
+                Get a quote
+              </button>
+            </Link>
+            <button
+              onClick={handleCall}
+              className="border border-green-800 md:text-base text-sm py-3 px-3 md:px-3  rounded text-white bg-green-800 font-semibold"
+            >
               020 8679 3330
             </button>
             <button>
@@ -47,7 +61,7 @@ const BedBugs = () => {
 
       <div className="w-full md:gap-3 gap-8 py-20 md:px-14 px-8 flex flex-col md:flex-row">
         <div className="md:w-1/2 w-full flex flex-col gap-2">
-          <h3 className="text-[2rem] font-bold">Bedbug Control</h3>
+          <h3 className="text-[1.4rem] font-bold">Bedbug Control</h3>
           <p className="font-light">
             The bedbug is a human parasite and feeds on human blood. They live
             close to its host. This pest is often not seen but felt by the host.
@@ -136,19 +150,19 @@ const BedBugs = () => {
           <Image
             src={BedBugsImg}
             alt="bed bugs"
-            className="object-cover rounded h-[43rem] shadow-sm w-full"
+            className="object-cover rounded md:h-[43rem] shadow-sm w-full"
           />
         </div>
       </div>
       <div className="w-full md:gap-8 gap-8 md:py-20 md:px-14 px-8 flex flex-col md:flex-row">
         <div className="md:w-1/2 w-full hidden md:flex">
           <Image
-            src={BedBugsImg}
+            src={BedBugsTwo}
             alt="bed bugs"
-            className="object-cover rounded shadow-sm w-full"
+            className="object-cover md:h-[47rem] rounded shadow-sm w-full"
           />
         </div>{" "}
-        <div className="w-1/2">
+        <div className="md:w-1/2 mb-20 w-full">
           <h3 className="text-[1.4rem] font-bold">Treatment</h3>
           <p className="font-light">
             We will recommend the best course of action. Once you are happy with
@@ -158,12 +172,32 @@ const BedBugs = () => {
             and your home will be protected for an extended period of time. Any
             present bed bugs and their eggs will perish very soon!
           </p>{" "}
-          <p className="font-light">
+          <p className="font-light mt-8">
             Preparation prior to treatment will involve clearing the floor area
             of belongings, emptying under bed storage and stripping your bed
             sheets from all beds. After this, you must be out of the property
             for at least 3 hours. Once this time has elapsed, you may return to
             your home and live life as normal again.
+          </p>
+          <h3 className="text-[1.4rem] mt-8 font-bold">Second Inspection</h3>
+          <p className="font-light">
+            We will come back after a few days or 2-3 weeks to inspect your home
+            and repeat the same treatment carried out in the first treatment to
+            help prevent an infestation. During this visit, we will also check
+            if there are any new pests. If we see something new or suspicious,
+            we will investigate it.
+          </p>{" "}
+          <p className="font-light mt-8">
+            If you have any questions or would like to make a booking, please
+            call or email us today. We can come out the same day we call. We
+            covering all of London from North, South, East and West London. We
+            work 7 days a week from 9:00am – 01:30am. Call us today on 020 8679
+            3330 or email us on rmpestokill@gmail.com
+          </p>
+          <p className="font-light mt-8">
+            RM Pestokill London is one of the best pest control service
+            providers with over 8 years experience in providing successful pest
+            eradication.
           </p>
         </div>
       </div>

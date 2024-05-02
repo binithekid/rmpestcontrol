@@ -16,6 +16,12 @@
   height: calc(100vh - 8rem);
 }
 
+@media (max-width: 767px) {
+  .ServicesHeight {
+    height: 40rem;
+  }
+}
+
 .custom-select {
   /* Your existing Tailwind CSS classes */
   padding-right: 1.5rem; /* Adjust the value as needed */
