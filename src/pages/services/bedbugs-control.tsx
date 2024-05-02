@@ -96,7 +96,7 @@ const BedBugs = () => {
           Get Your Bedbug infestation sorted today!
         </h1>
       </div>
-      <div className="w-full md:gap-3 gap-8 py-20 md:px-14 px-8 flex flex-col md:flex-row bg-gradient-to-br from-white via-gray-50 bg-teal-100">
+      <div className="w-full md:gap-3 gap-8 py-20 md:px-14 px-8 flex flex-col md:flex-row ">
         <div className="md:w-1/2 w-full justify-center flex flex-col gap-2">
           <h3 className="text-[1.4rem] font-bold">Signs</h3>
           <p className="font-light">
@@ -138,6 +138,33 @@ const BedBugs = () => {
             alt="bed bugs"
             className="object-cover rounded shadow-sm w-full md:w-[80%]"
           />
+        </div>
+      </div>
+      <div>
+        <div className="md:w-1/2 w-full items-center justify-center flex">
+          <Image
+            src={BedBugsImg}
+            alt="bed bugs"
+            className="object-cover rounded shadow-sm w-full md:w-[80%]"
+          />
+        </div>{" "}
+        <div>
+          <h3 className="text-[1.4rem] mt-8 font-bold">Treatment</h3>
+          <p className="font-light">
+            We will recommend the best course of action. Once you are happy with
+            our action plan, we will treat your property with a professional and
+            effective pesticide that has a prolonged residual effect. Coupled
+            with our unique treatment techniques, the bedbugs will be eradicated
+            and your home will be protected for an extended period of time. Any
+            present bed bugs and their eggs will perish very soon!
+          </p>{" "}
+          <p className="font-light">
+            Preparation prior to treatment will involve clearing the floor area
+            of belongings, emptying under bed storage and stripping your bed
+            sheets from all beds. After this, you must be out of the property
+            for at least 3 hours. Once this time has elapsed, you may return to
+            your home and live life as normal again.
+          </p>
         </div>
       </div>
       <Footer />
