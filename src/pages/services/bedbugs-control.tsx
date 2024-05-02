@@ -92,12 +92,12 @@ const BedBugs = () => {
         </div>
       </div>
       <div className="px-0 bg-green-800 flex justify-center items-center">
-        <h1 className="text-3xl py-10 font-bold text-white">
+        <h1 className="md:text-3xl text-lg text-center px-20 py-8 md:py-10 font-bold text-white">
           Get Your Bedbug infestation sorted today!
         </h1>
       </div>
       <div className="w-full md:gap-3 gap-8 py-20 md:px-14 px-8 flex flex-col md:flex-row ">
-        <div className="md:w-1/2 w-full justify-center flex flex-col gap-2">
+        <div className="md:w-1/2 w-full flex flex-col gap-2">
           <h3 className="text-[1.4rem] font-bold">Signs</h3>
           <p className="font-light">
             The adult bedbugs are nearly 4-5 mm long. You can spot bedbugs by
@@ -132,24 +132,24 @@ const BedBugs = () => {
             furniture, bed, headboard, skirting etc.
           </p>
         </div>
-        <div className="md:w-1/2 md:pl-8 w-full items-center justify-center flex">
+        <div className="md:w-1/2 md:pl-8 w-full flex">
           <Image
             src={BedBugsImg}
             alt="bed bugs"
-            className="object-cover rounded shadow-sm w-full md:w-[80%]"
+            className="object-cover rounded h-[43rem] shadow-sm w-full"
           />
         </div>
       </div>
-      <div>
-        <div className="md:w-1/2 w-full items-center justify-center flex">
+      <div className="w-full md:gap-8 gap-8 md:py-20 md:px-14 px-8 flex flex-col md:flex-row">
+        <div className="md:w-1/2 w-full hidden md:flex">
           <Image
             src={BedBugsImg}
             alt="bed bugs"
-            className="object-cover rounded shadow-sm w-full md:w-[80%]"
+            className="object-cover rounded shadow-sm w-full"
           />
         </div>{" "}
-        <div>
-          <h3 className="text-[1.4rem] mt-8 font-bold">Treatment</h3>
+        <div className="w-1/2">
+          <h3 className="text-[1.4rem] font-bold">Treatment</h3>
           <p className="font-light">
             We will recommend the best course of action. Once you are happy with
             our action plan, we will treat your property with a professional and
