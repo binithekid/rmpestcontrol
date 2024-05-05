@@ -52,19 +52,19 @@ const About = () => {
             </p>
             <div className="flex pt-4 text-white md:text-black gap-2 flex-col">
               <p className="flex flex-row gap-2 items-center">
-                <FaCheckCircle className="md:text-blue-900 text-blue-500 text-xl" />
+                <FaCheckCircle className="md:text-blue-900 text-gray-100 text-xl" />
                 Exceed your expectations
               </p>
               <p className="flex flex-row gap-2 items-center">
-                <FaCheckCircle className="md:text-blue-900 text-blue-500 text-xl" />
+                <FaCheckCircle className="md:text-blue-900 text-gray-100 text-xl" />
                 Professional Expert
               </p>
               <p className="flex flex-row gap-2 items-center">
-                <FaCheckCircle className="md:text-blue-900 text-blue-500 text-xl" />
+                <FaCheckCircle className="md:text-blue-900 text-gray-100 text-xl" />
                 Deliver 100% satisfaction
               </p>
               <p className="flex flex-row gap-2 items-center">
-                <FaCheckCircle className="md:text-blue-900 text-blue-500 text-xl" />
+                <FaCheckCircle className="md:text-blue-900 text-gray-100 text-xl" />
                 Premium support 24/7
               </p>
             </div>
@@ -76,7 +76,7 @@ const About = () => {
               </Link>
               <button
                 onClick={handleCall}
-                className="border  hover:opacity-70 transition-all md:text-base text-sm py-3 px-3 md:px-3  rounded text-white bg-blue-900 font-semibold"
+                className="hover:opacity-70 transition-all md:text-base text-sm py-3 px-3 md:px-3 rounded text-white bg-blue-900 font-semibold"
               >
                 020 8679 3330
               </button>

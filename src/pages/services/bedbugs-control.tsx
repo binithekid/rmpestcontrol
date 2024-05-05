@@ -57,7 +57,7 @@ const BedBugs = () => {
               </Link>
               <button
                 onClick={handleCall}
-                className="border  hover:opacity-70 transition-all md:text-base text-sm py-3 px-3 md:px-3  rounded text-white bg-blue-900 font-semibold"
+                className="hover:opacity-70 transition-all md:text-base text-sm py-3 px-3 md:px-3  rounded text-white bg-blue-900 font-semibold"
               >
                 020 8679 3330
               </button>
