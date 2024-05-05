@@ -44,7 +44,7 @@ const AboutMidSection = () => {
                   <h2 className="font-display font-bold text-center md:text-left text-2xl tracking-normal text-gray-800">
                     Our Vision
                   </h2>
-                  <p className="font-light text-center md:text-left text-gray-800">
+                  <p className="text-center md:text-base text-sm md:text-left text-gray-800">
                     Striving to be the leading pest control authority in London
                     and surrounding areas, committed to delivering unparalleled
                     service, satisfaction, and peace of mind to our valued
@@ -62,7 +62,7 @@ const AboutMidSection = () => {
                   <h2 className="font-display text-center md:text-left font-bold text-2xl tracking-normal text-gray-800">
                     Our Mission
                   </h2>
-                  <p className="font-light text-center md:text-left text-gray-800">
+                  <p className="text-center md:text-base text-sm md:text-left text-gray-800">
                     To deliver exceptional pest control solutions, utilising
                     expertise and cutting-edge techniques, ensuring a pest-free
                     environment for our clients promptly and reliably.
@@ -79,7 +79,7 @@ const AboutMidSection = () => {
                   <h2 className="font-display text-center md:text-left font-bold text-2xl tracking-normal text-gray-800">
                     Our Value
                   </h2>
-                  <p className="font-light text-center md:text-left text-gray-800">
+                  <p className="text-center md:text-base text-sm md:text-left text-gray-800">
                     Dedication to expertise, innovation, reliability, and
                     customer satisfaction drives us as we aim to provide
                     efficient, effective, and hassle-free pest control services
