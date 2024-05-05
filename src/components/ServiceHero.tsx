@@ -102,8 +102,10 @@ const ServiceHero = () => {
         <div />
         <Link href="/services">
           <div className="flex transition-all hover:opacity-70 flex-row gap-1 items-center">
-            <p className="text-sm text-gray-800">See More Services</p>{" "}
-            <FaChevronRight className="text-gray-700 text-sm" />
+            <p className="text-sm font-semibold text-gray-800">
+              See More Services
+            </p>{" "}
+            <FaChevronRight className="text-gray-800 text-sm" />
           </div>
         </Link>
       </div>

@@ -78,7 +78,7 @@ const FAQ = () => {
                 transition={{ duration: 0.3 }}
                 className="overflow-hidden"
               >
-                <p className="flex text-gray-600 text-sm flex-wrap mb-3 mx-12">
+                <p className="flex text-gray-600 text-sm flex-wrap mb-3 mr-2 ml-[2.4rem] md:ml-[2.7rem]">
                   {/* Replace with your answer content */}
                   {item.answer}
                 </p>

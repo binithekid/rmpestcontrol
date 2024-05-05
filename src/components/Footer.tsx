@@ -15,7 +15,7 @@ const Footer = () => {
             width={50}
             className="transition-all hover:opacity-60 cursor-pointer"
           />
-          <h1 className="font-display font-bold text-xl tracking-normal text-gray-800">
+          <h1 className="font-display font-bold text-xl">
             RM <span className="font-normal">PEST CONTROL</span>
           </h1>
         </div>

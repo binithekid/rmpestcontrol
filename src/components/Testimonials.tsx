@@ -30,10 +30,10 @@ const Testimonials = () => {
         />
       </div>
       <div className="py-10 flex flex-col md:flex-row gap-3">
-        <div className="md:w-1/3 w-full flex flex-col justify-between bg-white shadow-sm rounded p-8">
+        <div className="md:w-1/3 w-full flex flex-col justify-between bg-white shadow rounded p-8">
           <div>
             <FaQuoteLeft className="text-blue-800 my-2" />
-            <p className="font-light text-sm">
+            <p className="text-sm text-gray-600">
               We really appreciate the pest control services you have provided
               to us for the past two years. The professionalism shown by you and
               your staff is extremely importantin the small business world. I
@@ -52,10 +52,10 @@ const Testimonials = () => {
             </div>
           </div>
         </div>
-        <div className="md:w-1/3 w-full flex flex-col justify-between bg-white shadow-sm rounded p-8">
+        <div className="md:w-1/3 w-full flex flex-col justify-between bg-white shadow rounded p-8">
           <div>
             <FaQuoteLeft className="text-blue-800 my-2" />
-            <p className="font-light text-sm">
+            <p className="text-sm text-gray-600">
               RM Pesto Kill Company did a quick and excellent job ridding us of
               an infestation and has kept us pest free ever since 2016. I would
               highly recommend their services to anyone or any company that
@@ -74,10 +74,10 @@ const Testimonials = () => {
             </div>
           </div>
         </div>
-        <div className="md:w-1/3 w-full flex flex-col justify-between shadow-sm bg-white rounded p-8">
+        <div className="md:w-1/3 w-full flex flex-col justify-between shadow bg-white rounded p-8">
           <div>
             <FaQuoteLeft className="text-blue-800 my-2" />
-            <p className="font-light text-sm">
+            <p className="text-sm text-gray-600">
               Thank you so much for your outstanding service and the follow-up
               treatments making sure things were okay. Also, I appreciate you
               working around my work schedule to get the job done. I will use

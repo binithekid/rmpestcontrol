@@ -45,7 +45,9 @@ const MobileNavBar = () => {
           >
             <div className="flex flex-row gap-2 items-center">
               <Image src={Logo} alt="Logo" width={50} />
-              <h2 className="text-xl font-bold">RM PEST CONTROL</h2>
+              <h2 className="text-xl">
+                <span className="font-bold">RM</span> PEST CONTROL
+              </h2>
             </div>
             <button onClick={() => setShowSidebar(true)} className="text-black">
               <RxHamburgerMenu className="text-2xl" />

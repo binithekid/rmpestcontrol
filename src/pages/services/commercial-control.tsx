@@ -76,16 +76,16 @@ const Commercial = () => {
           <div className="md:w-1/2 w-full flex flex-col gap-2">
             <h3 className="text-[1.4rem] font-bold">Commercial Pest Control</h3>
             <p className="font-light text-sm md:text-base">
-              Residential Pest Control Services consists of treating your home
-              both inside and outside if required to shield your home against
-              its exclusive pest invaders. Our Pest Control Services are
-              effective and cost efficient and you will be supported by our
-              friendly and licensed service technicians who will comprehensively
-              and thoroughly review your home and yard to find out potential
-              issue. Then we will offer you with a totally custom-made
-              prospectus to treat and remove entry points and nests of the pest.
-              We deal with the entire elimination of pests and insects in line
-              with affordable and custom-made resolutions
+              Commercial Pest Control Services consists of treating your
+              business or other premesis both inside and outside if required to
+              shield your business against pest invaders. Our Pest Control
+              Services are effective and cost efficient and you will be
+              supported by our friendly and licensed service technicians who
+              will comprehensively and thoroughly review your home and yard to
+              find out potential issue. Then we will offer you with a totally
+              custom-made prospectus to treat and remove entry points and nests
+              of the pest. We deal with the entire elimination of pests and
+              insects in line with affordable and custom-made resolutions
             </p>
           </div>
           <div className="md:w-1/2 w-full flex md:items-center md:justify-center">

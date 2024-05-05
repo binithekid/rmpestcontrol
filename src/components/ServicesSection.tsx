@@ -14,7 +14,7 @@ const ServicesSection = () => {
         }}
       />
       <div className="absolute md:px-14 px-4 md:py-0 py-6 inset-0 justify-center items-center flex-col md:flex-row flex">
-        <div className="md:w-[40%] pb-10 w-full items-center md:mr-10 flex flex-col">
+        <div className="md:w-[40%] md:pb-10 w-full items-center md:mr-10 flex flex-col">
           <h1 className="text-white tracking-wide font-light md:text-xl">
             WHAT CAN WE DO
           </h1>
@@ -22,16 +22,16 @@ const ServicesSection = () => {
             HERE ARE A LIST OF SERVICES THAT WE OFFER
           </h1>
         </div>
-        <div className="md:w-[60%] py-20 w-full">
+        <div className="md:w-[60%] py-10 md:py-20 w-full">
           <div className="flex md:flex-row flex-col w-full gap-4">
-            <div className="md:w-1/2 w-full">
+            <div className="md:w-1/2 flex w-full">
               <div className="bg-white shadow rounded p-8 gap-3 flex items-center justify-center flex-col">
                 <GiSmokeBomb className="text-4xl text-blue-900" />
                 <p className="text-xl text-gray-800 font-semibold">
                   Steam Treatment
                 </p>
                 <p className="md:text-base text-gray-600 text-sm text-center">
-                  At RM Pest Control, harnessing heat&apos;s power to eradicate
+                  At RM Pest Control, harnessing steam&apos;s power to eradicate
                   pests, Ensuring a thorough extermination, leaving no unwelcome
                   guests.
                 </p>
@@ -44,37 +44,37 @@ const ServicesSection = () => {
                   Pest Control
                 </p>
                 <p className="md:text-base text-gray-600 text-sm text-center">
-                  At RM Pest Control, harnessing heat&apos;s power to eradicate
-                  pests, Ensuring a thorough extermination, leaving no unwelcome
-                  guests.
+                  RM Pest Control&apos;s Expertise, a shield against Pest
+                  infestation's, Comprehensive Pest Control London Solutions,
+                  securing a pest-free life.
                 </p>
               </div>
             </div>
           </div>
           <div className="flex md:flex-row mt-4 flex-col w-full gap-4">
-            <div className="md:w-1/2 w-full">
+            <div className="md:w-1/2 flex w-full">
               <div className="bg-white shadow rounded p-8 gap-3 flex items-center justify-center flex-col">
                 <FaHouseChimney className="text-4xl text-blue-900" />{" "}
                 <p className="text-xl text-gray-800 font-semibold">
                   Residential Services
                 </p>
                 <p className="md:text-base text-gray-600  text-sm text-center">
-                  At RM Pest Control, harnessing heat&apos;s power to eradicate
-                  pests, Ensuring a thorough extermination, leaving no unwelcome
-                  guests.
+                  Residential Pest Control Services consists of treating your
+                  home both inside and outside if required to shield your home
+                  against its exclusive pest invaders.
                 </p>
               </div>
             </div>
-            <div className="md:w-1/2 w-full">
+            <div className="md:w-1/2 flex w-full">
               <div className="bg-white shadow rounded p-8 gap-3 flex items-center justify-center flex-col">
                 <IoBusiness className="text-4xl text-blue-900" />{" "}
                 <p className="text-xl text-gray-800 font-semibold">
                   Commercial Services
                 </p>
                 <p className="md:text-base text-gray-600  text-sm text-center">
-                  At RM Pest Control, harnessing heat&apos;s power to eradicate
-                  pests, Ensuring a thorough extermination, leaving no unwelcome
-                  guests.
+                  Commercial Pest Control Services consists of treating your
+                  business or other premesis both inside and outside if required
+                  to shield your business against pest invaders.
                 </p>
               </div>
             </div>
