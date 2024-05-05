@@ -45,8 +45,8 @@ const ServicesSection = () => {
                 </p>
                 <p className="md:text-base text-gray-600 text-sm text-center">
                   RM Pest Control&apos;s Expertise, a shield against Pest
-                  infestation's, Comprehensive Pest Control London Solutions,
-                  securing a pest-free life.
+                  infestation&apos;s, Comprehensive Pest Control London
+                  Solutions, securing a pest-free life.
                 </p>
               </div>
             </div>
