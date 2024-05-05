@@ -36,7 +36,7 @@ const AboutMidSection = () => {
         <div className="md:w-[60%] w-full">
           <div className="flex flex-col w-full gap-4">
             <div className="w-full">
-              <div className="bg-white shadow-sm md:shadow rounded p-8 gap-4 md:gap-8 flex items-center justify-center flex-col md:flex-row">
+              <div className="bg-white shadow rounded p-8 gap-4 md:gap-8 flex items-center justify-center flex-col md:flex-row">
                 <div className="p-3 flex items-center justify-center bg-blue-900 rounded-full">
                   <FaRegEye className="text-3xl text-white" />
                 </div>
@@ -54,7 +54,7 @@ const AboutMidSection = () => {
               </div>
             </div>
             <div className="w-full">
-              <div className="bg-white shadow-sm md:shadow rounded p-8 gap-4 md:gap-8 flex items-center justify-center flex-col md:flex-row">
+              <div className="bg-white shadow rounded p-8 gap-4 md:gap-8 flex items-center justify-center flex-col md:flex-row">
                 <div className="p-3 flex items-center justify-center bg-blue-900 rounded-full">
                   <FaRegLightbulb className="text-3xl text-white" />
                 </div>{" "}
@@ -71,7 +71,7 @@ const AboutMidSection = () => {
               </div>
             </div>
             <div className="w-full">
-              <div className="bg-white shadow-sm md:shadow rounded p-8 gap-4 md:gap-8 flex items-center justify-center flex-col md:flex-row">
+              <div className="bg-white shadow rounded p-8 gap-4 md:gap-8 flex items-center justify-center flex-col md:flex-row">
                 <div className="p-3 flex items-center justify-center bg-blue-900 rounded-full">
                   <FaRegHandshake className="text-3xl text-white" />
                 </div>{" "}

@@ -52,19 +52,19 @@ const About = () => {
             </p>
             <div className="flex pt-4 text-white md:text-black gap-2 flex-col">
               <p className="flex flex-row gap-2 items-center">
-                <FaCheckCircle className="md:text-blue-900 text-gray-100 text-xl" />
+                <FaCheckCircle className="md:text-blue-900 text-blue-300 text-xl" />
                 Exceed your expectations
               </p>
               <p className="flex flex-row gap-2 items-center">
-                <FaCheckCircle className="md:text-blue-900 text-gray-100 text-xl" />
+                <FaCheckCircle className="md:text-blue-900 text-blue-200 text-xl" />
                 Professional Expert
               </p>
               <p className="flex flex-row gap-2 items-center">
-                <FaCheckCircle className="md:text-blue-900 text-gray-100 text-xl" />
+                <FaCheckCircle className="md:text-blue-900 text-blue-200 text-xl" />
                 Deliver 100% satisfaction
               </p>
               <p className="flex flex-row gap-2 items-center">
-                <FaCheckCircle className="md:text-blue-900 text-gray-100 text-xl" />
+                <FaCheckCircle className="md:text-blue-900 text-blue-200 text-xl" />
                 Premium support 24/7
               </p>
             </div>
