@@ -12,7 +12,7 @@ const ServiceHero = () => {
         <h1 className="font-display text-center font-bold text-2xl tracking-normal sm:text-3xl text-gray-800">
           Your Pest Control Experts
         </h1>
-        <p className="w-2/3 text-sm text-center text-gray-600">
+        <p className="md:w-2/3 w-full text-sm text-center text-gray-600">
           The presence of pests in your property can risk bringing damage and
           disease into your dwelling and can often escalate quickly to become
           infestations, which is why calling in professionals as soon as you

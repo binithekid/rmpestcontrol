@@ -128,9 +128,7 @@ const Steam = () => {
         </div>
         <div className="w-full md:gap-3 gap-8 py-10 md:py-20 md:px-14 px-4 flex flex-col md:flex-row ">
           <div className="md:w-1/2 w-full flex flex-col gap-2">
-            <h3 className="text-[1.4rem] font-bold">
-              Why choose Steam Treatment?
-            </h3>
+            <h3 className="text-[1.4rem] font-bold">Why Steam Treatment?</h3>
             <p className="font-light text-sm md:text-base">
               Steam treatment offers a safe, effective, and eco-friendly
               solution for pest control, providing peace of mind for homeowners,
@@ -138,11 +136,11 @@ const Steam = () => {
               advantageous for several reasons:
             </p>
 
-            <ul className="flex flex-col font-light gap-2">
+            <ul className="flex flex-col text-sm md:text-base font-light gap-2">
               <li>
-                <span className="font-semibold">Environmentally Friendly:</span>{" "}
-                Steam treatment eliminates the need for chemical pesticides,
-                reducing environmental impact and minimizing exposure to harmful
+                <span className="font-semibold">endly:</span> Steam treatment
+                eliminates the need for chemical pesticides, reducing
+                environmental impact and minimizing exposure to harmful
                 substances.
               </li>
               <li>
@@ -196,9 +194,9 @@ const Steam = () => {
               risks to humans or pets. Additionally, steam treatment targets
               pests directly, without dispersing potentially harmful substances
               into the air or surrounding environment. This makes it a safe and
-              environmentally friendly option for pest control, particularly in
-              sensitive environments such as homes, hospitals, and food
-              processing facilities.
+              endly option for pest control, particularly in sensitive
+              environments such as homes, hospitals, and food processing
+              facilities.
             </p>
           </div>
         </div>
