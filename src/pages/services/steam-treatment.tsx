@@ -138,9 +138,9 @@ const Steam = () => {
 
             <ul className="flex flex-col text-sm md:text-base font-light gap-2">
               <li>
-                <span className="font-semibold">endly:</span> Steam treatment
-                eliminates the need for chemical pesticides, reducing
-                environmental impact and minimizing exposure to harmful
+                <span className="font-semibold">Environmentally Friendly:</span>{" "}
+                Steam treatment eliminates the need for chemical pesticides,
+                reducing environmental impact and minimizing exposure to harmful
                 substances.
               </li>
               <li>
