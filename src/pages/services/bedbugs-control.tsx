@@ -51,18 +51,23 @@ const BedBugs = () => {
             </p>
             <div className="flex flex-row pt-6 gap-4">
               <Link href="/contact">
-                <button className="border hover:opacity-70 transition-all border-green-800 md:text-base text-sm py-3 px-3 md:px-3 rounded bg-white text-green-800 font-semibold">
+                <button className="border hover:opacity-70 transition-all text-blue-900 md:text-base text-sm py-3 px-3 md:px-3 rounded bg-white border-blue-900 font-semibold">
                   Get a quote
                 </button>
               </Link>
               <button
                 onClick={handleCall}
-                className="border border-green-800 hover:opacity-70 transition-all md:text-base text-sm py-3 px-3 md:px-3  rounded text-white bg-green-800 font-semibold"
+                className="border  hover:opacity-70 transition-all md:text-base text-sm py-3 px-3 md:px-3  rounded text-white bg-blue-900 font-semibold"
               >
                 020 8679 3330
               </button>
               <button>
-                <Image src={Whatsapp} alt="Hello" width={45} />
+                <Image
+                  src={Whatsapp}
+                  alt="Hello"
+                  width={40}
+                  className="ml-1 hover:opacity-70 transition-all"
+                />
               </button>
             </div>
           </div>
@@ -88,33 +93,33 @@ const BedBugs = () => {
           <div className="md:w-1/2 w-full flex md:items-center md:justify-center">
             <ul className="font-light flex text-sm md:text-base flex-col gap-3">
               <li className="flex flex-row gap-2 items-center">
-                <FaCheckCircle className="text-green-800 text-xl" />{" "}
+                <FaCheckCircle className="text-blue-900 text-xl" />{" "}
                 <p>Quick Response to all Customer</p>
               </li>
               <li className="flex flex-row gap-2 items-center">
-                <FaCheckCircle className="text-green-800 text-xl" />{" "}
+                <FaCheckCircle className="text-blue-900 text-xl" />{" "}
                 <p>100% Success Rate</p>
               </li>
               <li className="flex flex-row gap-2 items-center">
-                <FaCheckCircle className="text-green-800 text-xl" />{" "}
+                <FaCheckCircle className="text-blue-900 text-xl" />{" "}
                 <p>Full Eradication of bedbugs</p>
               </li>
               <li className="flex flex-row gap-2 items-center">
-                <FaCheckCircle className="text-green-800 text-xl" />{" "}
+                <FaCheckCircle className="text-blue-900 text-xl" />{" "}
                 <p>No Residue Left Over</p>
               </li>
               <li className="flex flex-row gap-2 items-center">
-                <FaCheckCircle className="text-green-800 text-xl" />{" "}
+                <FaCheckCircle className="text-blue-900 text-xl" />{" "}
                 <p>Emergency Services also Available</p>
               </li>
               <li className="flex flex-row gap-2 items-center">
-                <FaCheckCircle className="text-green-800 text-xl" />{" "}
+                <FaCheckCircle className="text-blue-900 text-xl" />{" "}
                 <p>Safe & agency-approved methods</p>
               </li>
             </ul>
           </div>
         </div>
-        <div className="px-0 bg-green-800 flex justify-center items-center">
+        <div className="px-0 bg-blue-900 flex justify-center items-center">
           <h1 className="md:text-3xl text-2xl text-center px-4 py-8 md:py-10 font-bold text-white">
             Get Your Bedbug infestation sorted today!
           </h1>

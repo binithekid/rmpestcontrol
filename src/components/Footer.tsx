@@ -16,18 +16,18 @@ const Footer = () => {
             className="transition-all hover:opacity-60 cursor-pointer"
           />
           <h1 className="font-display font-bold text-xl tracking-normal text-gray-800">
-            RM PEST CONTROL
+            RM <span className="font-normal">PEST CONTROL</span>
           </h1>
         </div>
       </Link>
       <div className="py-2 md:text-md text-sm flex flex-row gap-8">
-        <Link href="/termsOfService" target="_blank" rel="noopener noreferrer">
+        <Link href="/about" target="_blank" rel="noopener noreferrer">
           <p className="text-gray-600 font-uncut tracking-tight">About</p>
         </Link>
-        <Link href="/privacyPolicy" target="_blank" rel="noopener noreferrer">
+        <Link href="/contact" target="_blank" rel="noopener noreferrer">
           <p className="text-gray-600 font-uncut tracking-tight">Contact</p>
         </Link>
-        <Link href="/termsOfService" target="_blank" rel="noopener noreferrer">
+        <Link href="/services" target="_blank" rel="noopener noreferrer">
           <p className="text-gray-600 font-uncut tracking-tight">Services</p>
         </Link>
       </div>
@@ -40,7 +40,7 @@ const Footer = () => {
         </Link>
       </div>
       <div className="py-2 flex flex-row gap-8 mb-4">
-        <p className="text-sm text-gray-600 font-uncut tracking-tight">
+        <p className="text-xs text-gray-600 font-uncut tracking-tight">
           © 2024 RM Pest Control. All rights reserved.
         </p>
       </div>

@@ -9,6 +9,7 @@ import ServicesSection from "@/components/ServicesSection";
 import Testimonials from "@/components/Testimonials";
 import { Montserrat } from "next/font/google";
 import Head from "next/head";
+import ServiceHero from "@/components/ServiceHero";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
@@ -28,6 +29,7 @@ export default function Home() {
         <MobileNavBar />
         <Hero />
         <Badges />
+        <ServiceHero />
         <MidSection />
         <ServicesSection />
         <Testimonials />

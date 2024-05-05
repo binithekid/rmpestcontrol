@@ -65,7 +65,7 @@ const FAQ = () => {
                   }}
                 >
                   {" "}
-                  <AiOutlinePlus className="text-green-800 text-[13px] sm:text-lg" />{" "}
+                  <AiOutlinePlus className="text-blue-800 text-[13px] sm:text-lg" />{" "}
                 </motion.span>
                 {item.question}
               </p>
@@ -78,7 +78,7 @@ const FAQ = () => {
                 transition={{ duration: 0.3 }}
                 className="overflow-hidden"
               >
-                <p className="flex text-gray-700 flex-wrap mt-1 mb-3 mx-10">
+                <p className="flex text-gray-600 text-sm flex-wrap mb-3 mx-12">
                   {/* Replace with your answer content */}
                   {item.answer}
                 </p>

@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const Badges = () => {
   return (
-    <div className="w-full hidden border-t md:flex py-10 items-center justify-center gap-[3rem] flex-row">
+    <div className="w-full hidden md:flex py-10 items-center justify-center gap-[3rem] flex-row">
       <Image
         src={Checkatrade}
         alt="checkatrade"

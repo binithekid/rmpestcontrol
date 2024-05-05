@@ -9,6 +9,7 @@ import Commercial from "../../public/commercialcard.png";
 import Residential from "../../public/residpestcard.png";
 import Footer from "./Footer";
 import Link from "next/link";
+import SteamIcon from "../../public/SteamTreatIcon.jpeg";
 
 const ServicesList = () => {
   return (
@@ -38,7 +39,7 @@ const ServicesList = () => {
               </div>
             </div>
             <Link href="/services/bedbugs-control">
-              <button className="mt-4 hover:opacity-70 transition-all font-display font-bold tracking-wide py-3 w-full rounded text-white bg-green-800">
+              <button className="mt-4 hover:opacity-70 transition-all font-display font-bold tracking-wide py-3 w-full rounded text-white bg-blue-900">
                 LEARN MORE
               </button>
             </Link>
@@ -64,7 +65,7 @@ const ServicesList = () => {
               </div>
             </div>
             <Link href="/services/rodent-control">
-              <button className="mt-4 hover:opacity-70 transition-all font-display font-bold tracking-wide py-3 w-full rounded text-white bg-green-800">
+              <button className="mt-4 hover:opacity-70 transition-all font-display font-bold tracking-wide py-3 w-full rounded text-white bg-blue-900">
                 LEARN MORE
               </button>
             </Link>
@@ -89,7 +90,7 @@ const ServicesList = () => {
               </div>
             </div>
             <Link href="/services/termite-control">
-              <button className="mt-4 hover:opacity-70 transition-all font-display font-bold tracking-wide py-3 w-full rounded text-white bg-green-800">
+              <button className="mt-4 hover:opacity-70 transition-all font-display font-bold tracking-wide py-3 w-full rounded text-white bg-blue-900">
                 LEARN MORE
               </button>
             </Link>
@@ -116,7 +117,7 @@ const ServicesList = () => {
               </div>
             </div>
             <Link href="/services/cockroach-control">
-              <button className="mt-4 hover:opacity-70 transition-all font-display font-bold tracking-wide py-3 w-full rounded text-white bg-green-800">
+              <button className="mt-4 hover:opacity-70 transition-all font-display font-bold tracking-wide py-3 w-full rounded text-white bg-blue-900">
                 LEARN MORE
               </button>
             </Link>
@@ -142,7 +143,7 @@ const ServicesList = () => {
               </div>
             </div>
             <Link href="/services/mosquito-control">
-              <button className="mt-4 hover:opacity-70 transition-all font-display font-bold tracking-wide py-3 w-full rounded text-white bg-green-800">
+              <button className="mt-4 hover:opacity-70 transition-all font-display font-bold tracking-wide py-3 w-full rounded text-white bg-blue-900">
                 LEARN MORE
               </button>
             </Link>
@@ -167,16 +168,16 @@ const ServicesList = () => {
               </div>
             </div>
             <Link href="/services/other-control">
-              <button className="mt-4 hover:opacity-70 transition-all font-display font-bold tracking-wide py-3 w-full rounded text-white bg-green-800">
+              <button className="mt-4 hover:opacity-70 transition-all font-display font-bold tracking-wide py-3 w-full rounded text-white bg-blue-900">
                 LEARN MORE
               </button>
             </Link>
           </div>
         </div>
-        <h1 className="font-display font-bold text-xl pt-10 md:pt-20 text-center tracking-normal text-gray-800 sm:text-3xl">
+        {/* <h1 className="font-display font-bold text-xl pt-10 md:pt-20 text-center tracking-normal text-gray-800 sm:text-3xl">
           Residential & Commercial Pest Control Services
-        </h1>
-        <div className="w-full pt-6 md:pt-[3rem] items-center justify-center flex flex-col md:flex-row gap-6 md:gap-3">
+        </h1> */}
+        <div className="w-full pt-6 md:pt-[3rem] flex flex-col md:flex-row gap-6 md:gap-3">
           <div className="w-full md:w-1/3 bg-white rounded justify-between shadow flex flex-col p-3 md:p-6">
             <div>
               <Image
@@ -197,7 +198,7 @@ const ServicesList = () => {
               </div>
             </div>
             <Link href="/services/commercial-control">
-              <button className="mt-4 hover:opacity-70 transition-all font-display font-bold tracking-wide py-3 w-full rounded text-white bg-green-800">
+              <button className="mt-4 hover:opacity-70 transition-all font-display font-bold tracking-wide py-3 w-full rounded text-white bg-blue-900">
                 LEARN MORE
               </button>
             </Link>
@@ -222,7 +223,31 @@ const ServicesList = () => {
               </div>
             </div>
             <Link href="/services/residential-control">
-              <button className="mt-4 hover:opacity-70 transition-all font-display font-bold tracking-wide py-3 w-full rounded text-white bg-green-800">
+              <button className="mt-4 hover:opacity-70 transition-all font-display font-bold tracking-wide py-3 w-full rounded text-white bg-blue-900">
+                LEARN MORE
+              </button>
+            </Link>
+          </div>
+          <div className="w-full md:w-1/3 bg-white rounded justify-between shadow flex flex-col p-3 md:p-6">
+            <div>
+              <Image
+                src={SteamIcon}
+                alt="card pic"
+                className="object-cover h-[15rem]"
+              />
+              <div className="pt-4 w-full">
+                <h2 className="font-display font-bold text-xl tracking-normal text-gray-800">
+                  Steam Treatment
+                </h2>
+                <p className="font-light text-sm">
+                  {" "}
+                  We offer Steam Treatment services to deal with pests. Steam
+                  treatment leaves no chemical residues
+                </p>
+              </div>
+            </div>
+            <Link href="/services/steam-treatment">
+              <button className="mt-4 hover:opacity-70 transition-all font-display font-bold tracking-wide py-3 w-full rounded text-white bg-blue-900">
                 LEARN MORE
               </button>
             </Link>

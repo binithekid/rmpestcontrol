@@ -52,36 +52,41 @@ const About = () => {
             </p>
             <div className="flex pt-4 text-white md:text-black gap-2 flex-col">
               <p className="flex flex-row gap-2 items-center">
-                <FaCheckCircle className="md:text-green-800 text-green-500 text-xl" />
+                <FaCheckCircle className="md:text-blue-900 text-blue-500 text-xl" />
                 Exceed your expectations
               </p>
               <p className="flex flex-row gap-2 items-center">
-                <FaCheckCircle className="md:text-green-800 text-green-500 text-xl" />
+                <FaCheckCircle className="md:text-blue-900 text-blue-500 text-xl" />
                 Professional Expert
               </p>
               <p className="flex flex-row gap-2 items-center">
-                <FaCheckCircle className="md:text-green-800 text-green-500 text-xl" />
+                <FaCheckCircle className="md:text-blue-900 text-blue-500 text-xl" />
                 Deliver 100% satisfaction
               </p>
               <p className="flex flex-row gap-2 items-center">
-                <FaCheckCircle className="md:text-green-800 text-green-500 text-xl" />
+                <FaCheckCircle className="md:text-blue-900 text-blue-500 text-xl" />
                 Premium support 24/7
               </p>
             </div>
             <div className="flex flex-row pt-6 gap-4">
               <Link href="/contact">
-                <button className="border hover:opacity-70 transition-all border-green-800 md:text-base text-sm py-3 px-3 md:px-3 rounded bg-white text-green-800 font-semibold">
+                <button className="border hover:opacity-70 transition-all text-blue-900 md:text-base text-sm py-3 px-3 md:px-3 rounded bg-white border-blue-900 font-semibold">
                   Get a quote
                 </button>
               </Link>
               <button
                 onClick={handleCall}
-                className="border border-green-800 hover:opacity-70 transition-all md:text-base text-sm py-3 px-3 md:px-3  rounded text-white bg-green-800 font-semibold"
+                className="border  hover:opacity-70 transition-all md:text-base text-sm py-3 px-3 md:px-3  rounded text-white bg-blue-900 font-semibold"
               >
                 020 8679 3330
               </button>
               <button>
-                <Image src={Whatsapp} alt="Hello" width={45} />
+                <Image
+                  src={Whatsapp}
+                  alt="Hello"
+                  width={40}
+                  className="ml-1 hover:opacity-70 transition-all"
+                />
               </button>
             </div>
           </div>
