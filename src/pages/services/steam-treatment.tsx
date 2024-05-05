@@ -4,7 +4,6 @@ import Image from "next/image";
 import Whatsapp from "../../../public/WhatsApp_Logo.svg";
 import { FaCheckCircle } from "react-icons/fa";
 import SteamImageOne from "../../../public/SteamImage1.jpeg";
-import BedBugsTwo from "../../../public/termitescard.jpeg";
 import Footer from "@/components/Footer";
 import MobileNavBar from "@/components/MobileNavBar";
 import Link from "next/link";
