@@ -95,33 +95,33 @@ const Residential = () => {
           <div className="md:w-1/2 w-full flex md:items-center md:justify-center">
             <ul className="font-light text-sm md:text-base flex flex-col gap-3">
               <li className="flex flex-row gap-2 items-center">
-                <FaCheckCircle className="text-green-800 text-xl" />{" "}
+                <FaCheckCircle className="text-blue-900 text-xl" />{" "}
                 <p>Quick Response to all Customer</p>
               </li>
               <li className="flex flex-row gap-2 items-center">
-                <FaCheckCircle className="text-green-800 text-xl" />{" "}
+                <FaCheckCircle className="text-blue-900 text-xl" />{" "}
                 <p>100% Success Rate</p>
               </li>
               <li className="flex flex-row gap-2 items-center">
-                <FaCheckCircle className="text-green-800 text-xl" />{" "}
+                <FaCheckCircle className="text-blue-900 text-xl" />{" "}
                 <p>Full Eradication of Pests</p>
               </li>
               <li className="flex flex-row gap-2 items-center">
-                <FaCheckCircle className="text-green-800 text-xl" />{" "}
+                <FaCheckCircle className="text-blue-900 text-xl" />{" "}
                 <p>No Residue Left Over</p>
               </li>
               <li className="flex flex-row gap-2 items-center">
-                <FaCheckCircle className="text-green-800 text-xl" />{" "}
+                <FaCheckCircle className="text-blue-900 text-xl" />{" "}
                 <p>Emergency Services also Available</p>
               </li>
               <li className="flex flex-row gap-2 items-center">
-                <FaCheckCircle className="text-green-800 text-xl" />{" "}
+                <FaCheckCircle className="text-blue-900 text-xl" />{" "}
                 <p>Safe & agency-approved methods</p>
               </li>
             </ul>
           </div>
         </div>
-        <div className="px-0 bg-green-800 flex justify-center items-center">
+        <div className="px-0 bg-blue-900 flex justify-center items-center">
           <h1 className="md:text-3xl text-2xl text-center px-4 py-8 md:py-10 font-bold text-white">
             Get Your Pest infestation sorted today!
           </h1>
