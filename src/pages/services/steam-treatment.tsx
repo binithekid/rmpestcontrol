@@ -25,7 +25,7 @@ const Steam = () => {
           name="description"
           content="We offer local pest control treatments for rats, mice, bed bugs, cockroaches and other insects."
         />
-        <title>Steam Treatment | RM Pest Control</title>
+        <title>Steam Treatment | RM Pestokill</title>
       </Head>
       <div className={`flex w-full flex-col ${montserrat.className}`}>
         <NavBar />

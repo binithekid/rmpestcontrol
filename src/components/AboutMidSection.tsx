@@ -8,7 +8,7 @@ const AboutMidSection = () => {
       <div className="md:py-[7rem] py-10 px-4 md:px-14 inset-0 items-center gap-8 flex-col md:flex-row flex">
         <div className="md:w-[40%] w-full md:mr-10 flex flex-col">
           <h1 className="font-display font-bold text-2xl md:text-3xl tracking-normal text-gray-800">
-            Why Choose RM Pest Control?
+            Why Choose RM Pestokill?
           </h1>
           <ul className="md:mt-6 mt-3 text-gray-800 flex-col flex gap-2 list-disc">
             <li className="ml-5">

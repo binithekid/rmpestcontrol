@@ -31,7 +31,7 @@ const ServicesSection = () => {
                   Steam Treatment
                 </p>
                 <p className="md:text-base text-gray-600 text-sm text-center">
-                  At RM Pest Control, harnessing steam&apos;s power to eradicate
+                  At RM Pestokill, harnessing steam&apos;s power to eradicate
                   pests, Ensuring a thorough extermination, leaving no unwelcome
                   guests.
                 </p>
@@ -44,7 +44,7 @@ const ServicesSection = () => {
                   Pest Control
                 </p>
                 <p className="md:text-base text-gray-600 text-sm text-center">
-                  RM Pest Control&apos;s Expertise, a shield against Pest
+                  RM Pestokill&apos;s Expertise, a shield against Pest
                   infestation&apos;s, Comprehensive Pest Control London
                   Solutions, securing a pest-free life.
                 </p>

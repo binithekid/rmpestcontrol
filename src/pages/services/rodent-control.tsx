@@ -28,7 +28,7 @@ const Rodent = () => {
           name="description"
           content="We offer local pest control treatments for rats, mice, bed bugs, cockroaches and other insects."
         />
-        <title>Rodent Pest Control | RM Pest Control</title>
+        <title>Rodent Pest Control | RM Pestokill</title>
       </Head>
       <div className={`flex w-full flex-col ${montserrat.className}`}>
         <NavBar />

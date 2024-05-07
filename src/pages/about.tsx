@@ -26,7 +26,7 @@ const About = () => {
           name="description"
           content="We offer local pest control treatments for rats, mice, bed bugs, cockroaches and other insects."
         />
-        <title>About | RM Pest Control</title>
+        <title>About | RM Pestokill</title>
       </Head>
       <div className={`flex w-full flex-col ${montserrat.className}`}>
         <NavBar />
@@ -41,7 +41,7 @@ const About = () => {
           />
           <div className="absolute px-4 md:px-14 gap-1 w-full md:w-1/2 justify-center inset-0 flex-col flex">
             <h1 className="font-display font-bold text-3xl tracking-normal text-white  md:text-gray-800 sm:text-4xl">
-              About RM Pest Control
+              About RM Pestokill
             </h1>
             <p className="py-1 font-normal text-gray-100 md:text-gray-600">
               RM Pestokill provides expert residential and commercial pest
@@ -54,7 +54,7 @@ const About = () => {
             </p>
             <div className="flex pt-4 text-white md:text-gray-600 gap-2 flex-col">
               <p className="flex flex-row gap-2 items-center">
-                <FaCheckCircle className="md:text-blue-900 text-blue-300 text-xl" />
+                <FaCheckCircle className="md:text-blue-900 text-blue-200 text-xl" />
                 Exceed your expectations
               </p>
               <p className="flex flex-row gap-2 items-center">

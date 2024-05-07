@@ -41,7 +41,7 @@ const Footer = () => {
       </div>
       <div className="py-2 flex flex-row gap-8 mb-4">
         <p className="text-xs text-gray-600 font-uncut tracking-tight">
-          © 2024 RM Pest Control. All rights reserved.
+          © 2024 RM Pestokill. All rights reserved.
         </p>
       </div>
     </div>
