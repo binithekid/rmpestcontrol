@@ -111,11 +111,15 @@ const Heat = () => {
                 <FaCheckCircle className="text-blue-900 text-xl" />{" "}
                 <p>Bedbugs Eliminated in One Day</p>
               </li>
-              <li className="flex flex-row gap-2 items-center">
+              <li className="md:flex hidden flex-row gap-2 items-center">
                 <FaCheckCircle className="text-blue-900 text-xl" />{" "}
                 <p>
                   Kills all stages of Bedbugs & other insects, including eggs.
                 </p>
+              </li>
+              <li className="flex md:hidden flex-row gap-2 items-center">
+                <FaCheckCircle className="text-blue-900 text-xl" />{" "}
+                <p>Kills all stages of Bedbugs</p>
               </li>
               <li className="flex flex-row gap-2 items-center">
                 <FaCheckCircle className="text-blue-900 text-xl" />{" "}
