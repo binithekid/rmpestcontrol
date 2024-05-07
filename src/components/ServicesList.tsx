@@ -30,7 +30,7 @@ const ServicesList = () => {
                 <h2 className="font-display font-bold text-xl tracking-normal text-gray-800">
                   Bed Bugs Control
                 </h2>
-                <p className="font-light text-sm">
+                <p className="text-gray-600 text-sm">
                   {" "}
                   Bed bugs pest control services in norbury SW16, Mitcham Bed
                   bugs control, Bed bugs are usually brought into a home carried
@@ -56,7 +56,7 @@ const ServicesList = () => {
                 <h2 className="font-display font-bold text-xl tracking-normal text-gray-800">
                   Mice/Rats Control
                 </h2>
-                <p className="font-light text-sm">
+                <p className="text-gray-600 text-sm">
                   {" "}
                   Mice and Rats pest control services in norbury SW16, Mitcham
                   rodent control. Mice and Rats usually enter the home through
@@ -81,7 +81,7 @@ const ServicesList = () => {
                 <h2 className="font-display font-bold text-xl tracking-normal text-gray-800">
                   Flea Control
                 </h2>
-                <p className="font-light text-sm">
+                <p className="text-gray-600 text-sm">
                   {" "}
                   Flea control services in Norbury SW16, Mitcham pest control.
                   Fleas usually enter the home through pets but can enter the
@@ -108,7 +108,7 @@ const ServicesList = () => {
                 <h2 className="font-display font-bold text-xl tracking-normal text-gray-800">
                   Cockroaches Control
                 </h2>
-                <p className="font-light text-sm">
+                <p className="text-gray-600 text-sm">
                   {" "}
                   Cockroach pest control services in norbury SW16, Mitcham
                   cockroach bugs control. Cockroachs are usually brought into a
@@ -134,7 +134,7 @@ const ServicesList = () => {
                 <h2 className="font-display font-bold text-xl tracking-normal text-gray-800">
                   Heat Treatment
                 </h2>
-                <p className="font-light text-sm">
+                <p className="text-gray-600 text-sm">
                   {" "}
                   Mosquito pest control services in norbury SW16, Mitcham.
                   Mosquitos usually enter the home through holes that are
@@ -159,7 +159,7 @@ const ServicesList = () => {
                 <h2 className="font-display font-bold text-xl tracking-normal text-gray-800">
                   Other Pest Control
                 </h2>
-                <p className="font-light text-sm">
+                <p className="text-gray-600 text-sm">
                   {" "}
                   We offer a wide variety of different pest control services so
                   if you don&apos;t see the one require on this list don&apos;t
@@ -189,7 +189,7 @@ const ServicesList = () => {
                 <h2 className="font-display font-bold text-xl tracking-normal text-gray-800">
                   Commercial Pest Control
                 </h2>
-                <p className="font-light text-sm">
+                <p className="text-gray-600 text-sm">
                   {" "}
                   We offer Pest Control services for businesses and private
                   complexes. These fall under the category of Commercial Pest
@@ -214,7 +214,7 @@ const ServicesList = () => {
                 <h2 className="font-display font-bold text-xl tracking-normal text-gray-800">
                   Residential Pest Control
                 </h2>
-                <p className="font-light text-sm">
+                <p className="text-gray-600 text-sm">
                   {" "}
                   We offer Pest Control services for homes and residential
                   complexes. These fall under the category of Residential Pest
@@ -239,7 +239,7 @@ const ServicesList = () => {
                 <h2 className="font-display font-bold text-xl tracking-normal text-gray-800">
                   Steam Treatment
                 </h2>
-                <p className="font-light text-sm">
+                <p className="text-gray-600 text-sm">
                   {" "}
                   We offer Steam Treatment services to deal with pests. Steam
                   treatment leaves no chemical residues

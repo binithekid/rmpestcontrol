@@ -25,7 +25,7 @@ const Flea = () => {
           name="description"
           content="We offer local pest control treatments for rats, mice, bed bugs, cockroaches and other insects."
         />
-        <title>Termite Pest Control | RM Pest Control</title>
+        <title>Flea Pest Control | RM Pest Control</title>
       </Head>
       <div className={`flex w-full flex-col ${montserrat.className}`}>
         <NavBar />
@@ -42,7 +42,7 @@ const Flea = () => {
             <h1 className="font-display font-bold text-3xl tracking-normal text-white  md:text-gray-800 sm:text-4xl">
               Flea Pest Control Services
             </h1>
-            <p className="md:font-light py-1 font-normal text-gray-100 md:text-black">
+            <p className="py-1 font-normal text-gray-100 md:text-gray-600">
               Fleas are a common problem in UK homes, especially those with
               pets. You may discover a problem with fleas even if you do not
               have pets, if previous owners of your property kept cats or dogs.
@@ -79,12 +79,12 @@ const Flea = () => {
               {" "}
               Effective Flea Pest Control
             </h3>
-            <p className="font-light text-sm md:text-base">
+            <p className="text-gray-600 text-sm md:text-base">
               You could be de-fleaing your cat or dog regularly and still have a
               flea infestation at home, gone out of hand. Why? There are two
               main reasons for this:
             </p>
-            <p className="font-light mt-2 text-sm md:text-base">
+            <p className="text-gray-600 mt-2 text-sm md:text-base">
               {" "}
               Flea eggs are difficult to kill – Eggs are not killed 100% by a
               standard fipronil pet treatment. They drop on the floor (your
@@ -92,7 +92,7 @@ const Flea = () => {
               soon hatch. The young fleas jump back on the host – your
               unsuspecting dog or cat, despite their flea collar.
             </p>
-            <p className="font-light mt-2 text-sm md:text-base">
+            <p className="text-gray-600 mt-2 text-sm md:text-base">
               You’re dealing with a secondary infestation – You’re unaware that
               a rodent family in your attic has brought fleas into your home.
               Often, without a professional flea treatment and comprehensive
@@ -100,7 +100,7 @@ const Flea = () => {
             </p>
           </div>
           <div className="md:w-1/2 w-full flex md:items-center md:justify-center">
-            <ul className="font-light text-sm md:text-base flex flex-col gap-3">
+            <ul className="text-gray-600 text-sm md:text-base flex flex-col gap-3">
               <li className="flex flex-row gap-2 items-center">
                 <FaCheckCircle className="text-blue-900 text-xl" />{" "}
                 <p>Same-day availability & emergency flea pest control</p>
@@ -138,7 +138,7 @@ const Flea = () => {
             <h3 className="text-[1.4rem] font-bold">
               What is required for effective Flea Treatment?
             </h3>
-            <p className="text-sm mt-2 font-semibold text-gray-800 md:text-lg">
+            <p className="text-base mt-2 font-semibold text-gray-800 md:text-lg">
               Make sure to take the following measures prior to the flea
               treatment:
             </p>
@@ -161,7 +161,7 @@ const Flea = () => {
               </li>
             </ul>
 
-            <p className="text-sm mt-4 font-semibold text-gray-800 md:text-lg">
+            <p className="text-base mt-4 font-semibold text-gray-800 md:text-lg">
               After the flea control:
             </p>
             <ul className="mt-2 list-disc flex flex-col gap-3 text-gray-600 text-sm md:text-base">

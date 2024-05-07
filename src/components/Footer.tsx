@@ -21,18 +21,18 @@ const Footer = () => {
         </div>
       </Link>
       <div className="py-2 md:text-md text-sm flex flex-row gap-8">
-        <Link href="/about" target="_blank" rel="noopener noreferrer">
+        <Link href="/about">
           <p className="text-gray-600 font-uncut tracking-tight">About</p>
         </Link>
-        <Link href="/contact" target="_blank" rel="noopener noreferrer">
+        <Link href="/contact">
           <p className="text-gray-600 font-uncut tracking-tight">Contact</p>
         </Link>
-        <Link href="/services" target="_blank" rel="noopener noreferrer">
+        <Link href="/services">
           <p className="text-gray-600 font-uncut tracking-tight">Services</p>
         </Link>
       </div>
       <div className="py-1 flex flex-row gap-8">
-        <Link href="https://twitter.com/AimHireAI">
+        <Link href="">
           <FiTwitter className="text-gray-500 text-md md:text-xl" />
         </Link>
         <Link href="mailto:aimhireai@gmail.com">

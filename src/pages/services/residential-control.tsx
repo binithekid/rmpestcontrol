@@ -41,7 +41,7 @@ const Residential = () => {
             <h1 className="font-display font-bold text-3xl tracking-normal text-white  md:text-gray-800 sm:text-4xl">
               Residential Pest Control Services
             </h1>
-            <p className="md:font-light py-1 font-normal text-gray-100 md:text-black">
+            <p className="py-1 font-normal text-gray-100 md:text-gray-600">
               RM Pestokill Ltd London specialises in expert Residential Control
               solutions. Our experienced team is dedicated to swiftly and
               effectively eliminating pest infestations, tailored to your
@@ -78,7 +78,7 @@ const Residential = () => {
             <h3 className="text-[1.4rem] font-bold">
               Residential Pest Control
             </h3>
-            <p className="font-light text-sm md:text-base">
+            <p className="ftext-gray-600 text-sm md:text-base">
               Residential Pest Control Services consists of treating your home
               both inside and outside if required to shield your home against
               its exclusive pest invaders. Our Pest Control Services are
@@ -92,7 +92,7 @@ const Residential = () => {
             </p>
           </div>
           <div className="md:w-1/2 w-full flex md:items-center md:justify-center">
-            <ul className="font-light text-sm md:text-base flex flex-col gap-3">
+            <ul className="ftext-gray-600 text-sm md:text-base flex flex-col gap-3">
               <li className="flex flex-row gap-2 items-center">
                 <FaCheckCircle className="text-blue-900 text-xl" />{" "}
                 <p>Quick Response to all Customer</p>

@@ -41,7 +41,7 @@ const Steam = () => {
             <h1 className="font-display font-bold text-3xl tracking-normal text-white  md:text-gray-800 sm:text-4xl">
               Steam Treatment Services
             </h1>
-            <p className="md:font-light py-1 font-normal text-gray-100 md:text-black">
+            <p className="py-1 font-normal text-gray-100 md:text-gray-600">
               Our innovative steam treatment method harnesses the power of
               high-temperature steam to eradicate pests effectively and safely.
               By utilising specialised steam machines, we target pests in their
@@ -79,7 +79,7 @@ const Steam = () => {
             <h3 className="text-[1.4rem] font-bold">
               What is Steam Treatment?
             </h3>
-            <p className="font-light text-sm md:text-base">
+            <p className="text-gray-600 text-sm md:text-base">
               Steam treatment is a method used in pest control that involves the
               application of high-temperature steam to eliminate pests such as
               bed bugs, cockroaches, and other insects. This environmentally
@@ -92,7 +92,7 @@ const Steam = () => {
             </p>
           </div>
           <div className="md:w-1/2 w-full flex md:items-center md:justify-center">
-            <ul className="font-light text-sm md:text-base flex flex-col gap-3">
+            <ul className="text-gray-600 text-sm md:text-base flex flex-col gap-3">
               <li className="flex flex-row gap-2 items-center">
                 <FaCheckCircle className="text-blue-900 text-xl" />{" "}
                 <p>Quick Response to all Customer</p>
@@ -128,14 +128,14 @@ const Steam = () => {
         <div className="w-full md:gap-3 gap-8 py-10 md:py-20 md:px-14 px-4 flex flex-col md:flex-row ">
           <div className="md:w-1/2 w-full flex flex-col gap-2">
             <h3 className="text-[1.4rem] font-bold">Why Steam Treatment?</h3>
-            <p className="font-light text-sm md:text-base">
+            <p className="text-gray-600 text-sm md:text-base">
               Steam treatment offers a safe, effective, and eco-friendly
               solution for pest control, providing peace of mind for homeowners,
               businesses, and property managers alike. Steam treatment is
               advantageous for several reasons:
             </p>
 
-            <ul className="flex flex-col text-sm md:text-base font-light gap-2">
+            <ul className="flex flex-col text-sm md:text-base text-gray-600 gap-2">
               <li>
                 <span className="font-semibold">Environmentally Friendly:</span>{" "}
                 Steam treatment eliminates the need for chemical pesticides,
@@ -182,7 +182,7 @@ const Steam = () => {
             <h3 className="text-[1.4rem] font-bold">
               Safe Pest Control without Chemicals
             </h3>
-            <p className="font-light text-sm md:text-base">
+            <p className="text-gray-600 text-sm md:text-base">
               Steam treatment is non-toxic because it relies solely on the power
               of high-temperature steam to eliminate pests, without the need for
               chemical pesticides. Unlike traditional pest control methods that

@@ -45,7 +45,7 @@ const Rodent = () => {
             <h1 className="font-display font-bold text-3xl tracking-normal text-white  md:text-gray-800 sm:text-4xl">
               Rodent Pest Control Services
             </h1>
-            <p className="md:font-light py-1 font-normal text-gray-100 md:text-black">
+            <p className="py-1 font-normal text-gray-100 md:text-gray-600">
               RM Pestokill Ltd London specialises in expert Rodent Control
               solutions. Our experienced team is dedicated to swiftly and
               effectively eliminating rodent infestations, tailored to your
@@ -80,7 +80,7 @@ const Rodent = () => {
         <div className="w-full md:gap-3 gap-8 py-10 md:py-20 md:px-14 px-4  flex flex-col md:flex-row">
           <div className="md:w-1/2 w-full flex flex-col gap-2">
             <h3 className="text-[1.4rem] font-bold">House Mouse Control</h3>
-            <p className="font-light text-sm md:text-base">
+            <p className="text-gray-600 text-sm md:text-base">
               House mouse or Mice can enter a property by many routes and even
               some air bricks allow mice access to a building. Kitchens tend to
               be highly preferred area for mice to infest therefore is the most
@@ -88,7 +88,7 @@ const Rodent = () => {
               searching for food. Mice are a UK wide problem for most residences
               and businesses.
             </p>
-            <p className="font-light mt-2 md:mt-4 text-sm md:text-base">
+            <p className="text-gray-600 mt-2 md:mt-4 text-sm md:text-base">
               {" "}
               They are considered to be pests due to the fact that they are
               living creatures capable of transmitting deadly diseases like
@@ -102,7 +102,7 @@ const Rodent = () => {
             </p>
           </div>
           <div className="md:w-1/2 w-full flex md:items-center md:justify-center">
-            <ul className="font-light text-sm md:text-base flex flex-col gap-3">
+            <ul className="text-gray-600 text-sm md:text-base flex flex-col gap-3">
               <li className="flex flex-row gap-2 items-center">
                 <FaCheckCircle className="text-blue-900 text-xl" />{" "}
                 <p>Quick Response to all Customer</p>
@@ -138,7 +138,7 @@ const Rodent = () => {
         <div className="w-full md:gap-3 gap-8 py-10 md:py-20 md:px-14 px-4 flex flex-col md:flex-row ">
           <div className="md:w-1/2 w-full flex flex-col gap-2">
             <h3 className="text-[1.4rem] font-bold">Signs</h3>
-            <p className="font-light text-sm md:text-base">
+            <p className="text-gray-600 text-sm md:text-base">
               Mice unlike rats are usually active at night time, most common
               sign of mice infestation are Black colored 3-7mm long droppings,
               usually scattered along the paths they pass through. Also they
@@ -151,7 +151,7 @@ const Rodent = () => {
             </p>
 
             <h3 className="text-[1.4rem] mt-8 font-bold">Inspection</h3>
-            <p className="font-light text-sm md:text-base">
+            <p className="text-gray-600 text-sm md:text-base">
               The first step in controlling mice is to inspect feeding areas and
               exclude mice by closing entry access points. Setting mouse traps
               or place mouse bait in the detected areas. Enclose the food in
@@ -180,14 +180,14 @@ const Rodent = () => {
           </div>{" "}
           <div className="md:w-1/2 md:mb-0 mb-[4rem] w-full">
             <h3 className="text-[1.4rem] font-bold">Treatment</h3>
-            <p className="font-light text-sm md:text-base">
+            <p className="text-gray-600 text-sm md:text-base">
               We will recommend the best course of action. We will treat your
               property with a pest control formula that has a prolonged residual
               effect so the place will be protected for an extended period of
               time to ensure mouse extermination.
             </p>
             <h3 className="text-[1.4rem] mt-8 font-bold">Second Inspection</h3>
-            <p className="font-light text-sm md:text-base">
+            <p className="text-gray-600 text-sm md:text-base">
               We will come back periodically to inspect your home and help
               prevent an infestation. We will also collect and dispose of mouse
               carcasses if there are any at all. Our pest exterminator might
@@ -209,7 +209,7 @@ const Rodent = () => {
         <div className="w-full md:gap-3 gap-8 py-10 md:py-20 md:px-14 px-4 flex flex-col md:flex-row ">
           <div className="md:w-1/2 w-full flex flex-col gap-2">
             <h3 className="text-[1.4rem] font-bold">Rat Control</h3>
-            <p className="font-light text-sm md:text-base">
+            <p className="text-gray-600text-sm md:text-base">
               Presence of rats inside the premises may lead to serious damage to
               the property as well as to the health of the people around. The
               situation gets worse when they start to breed inside the premises
@@ -220,7 +220,7 @@ const Rodent = () => {
             </p>
 
             <h3 className="text-[1.4rem] mt-8 font-bold">Signs</h3>
-            <p className="font-light text-sm md:text-base">
+            <p className="text-gray-600 text-sm md:text-base">
               Usual signs of the rat infestation are gnawed electrical wires,
               half chewed cereals or foods, nibbled plastic or even mild steel.
               At RM Pestokill we make sure that our technicians apply humane rat
@@ -249,7 +249,7 @@ const Rodent = () => {
           </div>{" "}
           <div className="md:w-1/2 md:mb-0 mb-[4rem] w-full">
             <h3 className="text-[1.4rem] font-bold">Inspection</h3>
-            <p className="font-light text-sm md:text-base">
+            <p className="text-gray-600 text-sm md:text-base">
               If you have seen evidence of rats or want to help protect your
               home against rats, our team will inspect your home. We will very
               carefully inspect the place for openings the rats use as entry
@@ -257,7 +257,7 @@ const Rodent = () => {
               exterior walls, roofs, drains and sewer pipes.
             </p>
             <h3 className="text-[1.4rem] mt-8 font-bold">Treatment</h3>
-            <p className="font-light text-sm md:text-base">
+            <p className="text-gray-600 text-sm md:text-base">
               We will recommend the best course of action. We will treat your
               property with a pest control formula that has a prolonged residual
               effect so the place will be protected for an extended period of
@@ -268,7 +268,7 @@ const Rodent = () => {
               the problem the quickest way possible.
             </p>
             <h3 className="text-[1.4rem] mt-8 font-bold">Second Inspection</h3>
-            <p className="font-light text-sm md:text-base">
+            <p className="text-gray-600 text-sm md:text-base">
               If you want we can come back periodically to inspect your home and
               help prevent an infestation. If we notice something new or
               suspicious, we will investigate on it. Our technician will offer

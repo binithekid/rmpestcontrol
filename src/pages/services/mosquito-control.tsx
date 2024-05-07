@@ -42,7 +42,7 @@ const Mosquito = () => {
             <h1 className="font-display font-bold text-3xl tracking-normal text-white  md:text-gray-800 sm:text-4xl">
               Mosquito Pest Control Services
             </h1>
-            <p className="md:font-light py-1 font-normal text-gray-100 md:text-black">
+            <p className="py-1 font-normal text-gray-100 md:text-gray-600">
               RM Pestokill Ltd London specialises in expert Mosquito Control
               solutions. Our experienced team is dedicated to swiftly and
               effectively eliminating mosquito infestations, tailored to your
@@ -77,19 +77,19 @@ const Mosquito = () => {
         <div className="w-full md:gap-3 gap-8 py-10 md:py-20 md:px-14 px-4  flex flex-col md:flex-row">
           <div className="md:w-1/2 w-full flex flex-col gap-2">
             <h3 className="text-[1.4rem] font-bold">Mosquito Control</h3>
-            <p className="font-light text-sm md:text-base">
+            <p className="ftext-gray-600 text-sm md:text-base">
               Mosquito free world is a movement and long term objective of
               Indian Pest control, to help all parts of nations for Mosquito
               Control. Most often it&apos;s accomplished following concept.
             </p>
-            <p className="font-light mt-2 md:mt-4 text-sm md:text-base">
+            <p className="text-gray-600 mt-2 md:mt-4 text-sm md:text-base">
               {" "}
               It is based on ecological, economic and social criteria and
               integrates multidisciplinary methodologies into pest management
               strategies that are practical and effective to protect public
               health and the environment and improve the quality of life.
             </p>
-            <p className="font-light mt-2 md:mt-4 text-sm md:text-base">
+            <p className="text-gray-600 mt-2 md:mt-4 text-sm md:text-base">
               {" "}
               Our strategies are working in concert with insecticide. These
               contain source reduction, which incorporates physical control and
@@ -100,7 +100,7 @@ const Mosquito = () => {
             </p>
           </div>
           <div className="md:w-1/2 w-full flex md:items-center md:justify-center">
-            <ul className="font-light text-sm md:text-base flex flex-col gap-3">
+            <ul className="ftext-gray-600 text-sm md:text-base flex flex-col gap-3">
               <li className="flex flex-row gap-2 items-center">
                 <FaCheckCircle className="text-blue-900 text-xl" />{" "}
                 <p>Quick Response to all Customer</p>
@@ -136,7 +136,7 @@ const Mosquito = () => {
         <div className="w-full md:gap-3 gap-8 py-10 md:py-20 md:px-14 px-4 flex flex-col md:flex-row ">
           <div className="md:w-1/2 w-full flex flex-col gap-2">
             <h3 className="text-[1.4rem] font-bold">Mosquito Fogging</h3>
-            <p className="font-light text-sm md:text-base">
+            <p className="text-gray-600 text-sm md:text-base">
               Mosquito fogging operations will have some success in killing
               adult mosquitoes in the parts that are preserved, the residents of
               Honiara and GP are cautioned that this activity alone is not
@@ -146,7 +146,7 @@ const Mosquito = () => {
               residents.
             </p>
 
-            <p className="font-light mt-2 md:mt-4 text-sm md:text-base">
+            <p className="text-gray-600 mt-2 md:mt-4 text-sm md:text-base">
               These include making assured there are no dengue mosquitoes
               breeding in your yard, such as in tyres, drums, buckets and any
               water storage containers, and that you also keep safe your family

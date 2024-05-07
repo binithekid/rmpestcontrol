@@ -2,7 +2,6 @@ import Link from "next/link";
 import Image from "next/image";
 import Logo from "../../public/rmlogo.png";
 import { useEffect, useState, useRef } from "react";
-import { FaInstagram } from "react-icons/fa6";
 import Sidebar from "./Sidebar";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { motion } from "framer-motion";
@@ -43,15 +42,22 @@ const MobileNavBar = () => {
             transition={{ duration: 0.3, ease: "easeInOut" }}
             className="w-full flex py-2 items-center justify-between"
           >
-            <div className="flex flex-row gap-2 items-center">
-              <Image src={Logo} alt="Logo" width={50} />
-              <h2 className="text-xl">
-                <span className="font-bold">RM</span> PEST CONTROL
-              </h2>
+            <Link href="/">
+              <div className="flex flex-row gap-2 items-center">
+                <Image src={Logo} alt="Logo" width={50} />
+                <h2 className="text-xl">
+                  <span className="font-bold">RM</span> PEST CONTROL
+                </h2>
+              </div>
+            </Link>
+            <div ref={ref}>
+              <button
+                onClick={() => setShowSidebar(true)}
+                className="text-black"
+              >
+                <RxHamburgerMenu className="text-2xl" />
+              </button>
             </div>
-            <button onClick={() => setShowSidebar(true)} className="text-black">
-              <RxHamburgerMenu className="text-2xl" />
-            </button>
           </motion.div>
         </div>
       </div>

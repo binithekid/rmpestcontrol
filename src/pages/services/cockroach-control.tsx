@@ -43,7 +43,7 @@ const Cockroach = () => {
             <h1 className="font-display font-bold text-3xl tracking-normal text-white  md:text-gray-800 sm:text-4xl">
               Cockroach Pest Control Services
             </h1>
-            <p className="md:font-light py-1 font-normal text-gray-100 md:text-black">
+            <p className="py-1 font-normal text-gray-100 md:text-gray-600">
               RM Pestokill Ltd London specialises in expert Cockroach Control
               solutions. Our experienced team is dedicated to swiftly and
               effectively eliminating cockroach infestations, tailored to your
@@ -78,7 +78,7 @@ const Cockroach = () => {
         <div className="w-full md:gap-3 gap-8 py-10 md:py-20 md:px-14 px-4  flex flex-col md:flex-row">
           <div className="md:w-1/2 w-full flex flex-col gap-2">
             <h3 className="text-[1.4rem] font-bold">Cockroach Control</h3>
-            <p className="font-light text-sm md:text-base">
+            <p className="text-gray-600 text-sm md:text-base">
               Cockroaches are known to be a very high risk pest. Cockroaches are
               most active during the night. During the day they prefer to stay
               hidden in cracks and crevices, coming out to feed mostly at night
@@ -86,7 +86,7 @@ const Cockroach = () => {
               your home. They will eat anything from foods, paper, packaging,
               plastics and fabrics to animal matter.
             </p>
-            <p className="font-light mt-2 md:mt-4 text-sm md:text-base">
+            <p className="text-gray-600 mt-2 md:mt-4 text-sm md:text-base">
               {" "}
               We minimise the risk of insects in the home by using non-toxic
               products, which are highly targeted at the crevices where
@@ -104,7 +104,7 @@ const Cockroach = () => {
             </p>
           </div>
           <div className="md:w-1/2 w-full flex md:items-center md:justify-center">
-            <ul className="font-light text-sm md:text-base flex flex-col gap-3">
+            <ul className="text-gray-600 text-sm md:text-base flex flex-col gap-3">
               <li className="flex flex-row gap-2 items-center">
                 <FaCheckCircle className="text-blue-900 text-xl" />{" "}
                 <p>Quick Response to all Customer</p>
@@ -140,7 +140,7 @@ const Cockroach = () => {
         <div className="w-full md:gap-3 gap-8 py-10 md:py-20 md:px-14 px-4 flex flex-col md:flex-row ">
           <div className="md:w-1/2 w-full flex flex-col gap-2">
             <h3 className="text-[1.4rem] font-bold">Signs</h3>
-            <p className="font-light text-sm md:text-base">
+            <p className="text-gray-600 text-sm md:text-base">
               Their diet often consists of grease build up, leftover food,
               rubbish, and basically anything else they they can get to. This
               also includes other dead cockroaches as well as your stored food.
@@ -151,7 +151,7 @@ const Cockroach = () => {
             </p>
 
             <h3 className="text-[1.4rem] mt-8 font-bold">Inspection</h3>
-            <p className="font-light text-sm md:text-base">
+            <p className="text-gray-600 text-sm md:text-base">
               If you have seen evidence of bed bugs or want to help protect your
               home against cockroaches, our team will inspect your home. They
               are sometimes hard to find however our cockroach pest control
@@ -178,7 +178,7 @@ const Cockroach = () => {
           </div>{" "}
           <div className="md:w-1/2 md:mb-0 mb-[4rem] w-full">
             <h3 className="text-[1.4rem] font-bold">Treatment</h3>
-            <p className="font-light text-sm md:text-base">
+            <p className="text-gray-600 text-sm md:text-base">
               These insects are particularly difficult to exterminate so it is
               important that professionals are used immediately. We have the
               most up to date procedures to treat the problem including sprays
@@ -189,7 +189,7 @@ const Cockroach = () => {
               three-month residual effect.
             </p>
             <h3 className="text-[1.4rem] mt-8 font-bold">Second Inspection</h3>
-            <p className="font-light text-sm md:text-base">
+            <p className="text-gray-600 text-sm md:text-base">
               We will come back periodically to inspect your home and help
               prevent an infestation. We will ensure that that no more
               cockroaches are left in your property. Our pest controller will

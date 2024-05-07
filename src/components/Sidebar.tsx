@@ -27,7 +27,7 @@ const Sidebar = ({
             } ease-in-out duration-500`}
       >
         <button
-          className="flex text-3xl text-black items-center cursor-pointer fixed pl-4 top-6 hover:cursor-pointer mb-20"
+          className="flex text-3xl text-black items-center cursor-pointer fixed pl-6 top-6 hover:cursor-pointer mb-20"
           onClick={() => setShowSidebar(!showSidebar)}
         >
           <GrFormClose className="hover:cursor-pointer ease-in-out duration-300 hover:opacity-40" />
@@ -84,7 +84,7 @@ const Sidebar = ({
               onClick={() => setShowSidebar(!showSidebar)}
             >
               <div className="flex flex-row">
-                <p className="align-middle cursor-pointer font-medium text-zinc-800 ml-2">
+                <p className="align-middle cursor-pointer font-medium text-zinc-800 ml-3">
                   ABOUT
                 </p>
                 <IoChevronForward

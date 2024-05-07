@@ -40,7 +40,7 @@ const Services = () => {
             <h1 className="font-display font-bold text-3xl tracking-normal text-white  md:text-gray-800 sm:text-4xl">
               Pest Control Services
             </h1>
-            <p className="md:font-light py-1 font-normal text-gray-100 md:text-black">
+            <p className="py-1 font-normal text-gray-100 md:text-gray-600">
               We specialise in comprehensive pest control services tailored for
               both residential and commercial properties. Our expertise
               encompasses everything from common household pests like ants and

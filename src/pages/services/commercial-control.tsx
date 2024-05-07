@@ -41,7 +41,7 @@ const Commercial = () => {
             <h1 className="font-display font-bold text-3xl tracking-normal text-white  md:text-gray-800 sm:text-4xl">
               Commercial Pest Control Services
             </h1>
-            <p className="md:font-light py-1 font-normal text-gray-100 md:text-black">
+            <p className="py-1 font-normal text-gray-100 md:text-gray-600">
               RM Pestokill Ltd London specialises in expert Commercial Control
               solutions. Our experienced team is dedicated to swiftly and
               effectively eliminating pest infestations, tailored to your
@@ -76,7 +76,7 @@ const Commercial = () => {
         <div className="w-full md:gap-3 gap-8 py-10 md:py-20 md:px-14 px-4  flex flex-col md:flex-row">
           <div className="md:w-1/2 w-full flex flex-col gap-2">
             <h3 className="text-[1.4rem] font-bold">Commercial Pest Control</h3>
-            <p className="font-light text-sm md:text-base">
+            <p className="text-gray-600 text-sm md:text-base">
               Commercial Pest Control Services consists of treating your
               business or other premesis both inside and outside if required to
               shield your business against pest invaders. Our Pest Control
@@ -90,7 +90,7 @@ const Commercial = () => {
             </p>
           </div>
           <div className="md:w-1/2 w-full flex md:items-center md:justify-center">
-            <ul className="font-light text-sm md:text-base flex flex-col gap-3">
+            <ul className="text-gray-600 text-sm md:text-base flex flex-col gap-3">
               <li className="flex flex-row gap-2 items-center">
                 <FaCheckCircle className="text-blue-900 text-xl" />{" "}
                 <p>Quick Response to all Customer</p>

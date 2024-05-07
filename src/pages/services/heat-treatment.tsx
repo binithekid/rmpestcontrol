@@ -43,14 +43,14 @@ const Heat = () => {
             <h1 className="font-display font-bold text-3xl tracking-normal text-white  md:text-gray-800 sm:text-4xl">
               Heat Treatment Services
             </h1>
-            <p className="md:font-light py-1 font-normal text-gray-100 md:text-black">
+            <p className="py-1 font-normal text-gray-100 md:text-gray-600">
               RM Pestokill’s Heat Treatment Solution stands as the singular
               method eradicating all life stages of bedbugs and other insects
               swiftly, distinguishing itself as the ultimate insect elimination
               treatment. Elevating the property’s temperature above 50°C, the
               treatment reaches the lethal temperature zone for all insects.
             </p>
-            <p className="md:font-light font-normal text-gray-100 md:text-black">
+            <p className="font-normal hidden md:block text-gray-100 md:text-gray-600">
               Completion duration varies between 5 to 8 hours, contingent upon
               property size. Our commitment stands strong with a 100% guarantee
               on all jobs, irrespective of the infestation severity. Our adept
@@ -87,7 +87,7 @@ const Heat = () => {
             <h3 className="text-[1.4rem] font-bold">
               Should I do Heat Treatment ?
             </h3>
-            <p className="font-light text-sm md:text-base">
+            <p className="text-gray-600 text-sm md:text-base">
               Many individuals opt for the conventional spray treatment due to
               its affordability. However, with larger infestations, costs can
               skyrocket as replacements for furniture and belongings become
@@ -95,7 +95,7 @@ const Heat = () => {
               customers have had to replace wallpaper and flooring due to
               bedbugs nesting within these spaces along with their eggs.
             </p>
-            <p className="font-light text-sm md:text-base">
+            <p className="text-gray-600 text-sm md:text-base">
               RM Pestokill’s Heat Treatment presents a safer alternative,
               minimizing chemical use significantly. This method ensures the
               safety of your family, pets, or tenants by eliminating the risk of
@@ -106,7 +106,7 @@ const Heat = () => {
             </p>
           </div>
           <div className="md:w-1/2 w-full flex md:items-center md:justify-center">
-            <ul className="font-light text-sm md:text-base flex flex-col gap-3">
+            <ul className="text-gray-600 text-sm md:text-base flex flex-col gap-3">
               <li className="flex flex-row gap-2 items-center">
                 <FaCheckCircle className="text-blue-900 text-xl" />{" "}
                 <p>Bedbugs Eliminated in One Day</p>
@@ -150,9 +150,9 @@ const Heat = () => {
               className="object-cover md:h-[20rem] rounded shadow-sm w-full"
             />
           </div>{" "}
-          <div className="md:w-1/2 md:mb-0 flex flex-col justify-center mb-[4rem] w-full">
+          <div className="md:w-1/2 md:mb-0 mt-[3rem] md:mt-0 flex flex-col justify-center w-full">
             <h3 className="text-[1.4rem] font-bold">What to Expect?</h3>
-            <ul className="flex flex-col text-sm md:text-base font-light gap-2">
+            <ul className="flex flex-col text-sm md:text-base text-gray-600 gap-2">
               <li>
                 Heat treatment is the ultimate and quickest solution to insect
                 eradication.

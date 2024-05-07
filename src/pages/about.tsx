@@ -9,6 +9,7 @@ import { Montserrat } from "next/font/google";
 import MobileNavBar from "@/components/MobileNavBar";
 import Link from "next/link";
 import Head from "next/head";
+import NavBarNew from "@/components/NavBarNew";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
@@ -29,6 +30,7 @@ const About = () => {
       </Head>
       <div className={`flex w-full flex-col ${montserrat.className}`}>
         <NavBar />
+        <NavBarNew />
         <MobileNavBar />
         <div className="px-14 relative ServicesHeight w-full py-20">
           <div
@@ -41,7 +43,7 @@ const About = () => {
             <h1 className="font-display font-bold text-3xl tracking-normal text-white  md:text-gray-800 sm:text-4xl">
               About RM Pest Control
             </h1>
-            <p className="md:font-light py-1 font-normal text-gray-100 md:text-black">
+            <p className="py-1 font-normal text-gray-100 md:text-gray-600">
               RM Pestokill provides expert residential and commercial pest
               control services. With over 10 years worth of experience in pest
               control services, we provide a specific set of solutions for every
@@ -50,7 +52,7 @@ const About = () => {
               pest eradication services for residential and commercial
               customers.
             </p>
-            <div className="flex pt-4 text-white md:text-black gap-2 flex-col">
+            <div className="flex pt-4 text-white md:text-gray-600 gap-2 flex-col">
               <p className="flex flex-row gap-2 items-center">
                 <FaCheckCircle className="md:text-blue-900 text-blue-300 text-xl" />
                 Exceed your expectations
