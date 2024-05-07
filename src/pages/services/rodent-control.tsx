@@ -209,7 +209,7 @@ const Rodent = () => {
         <div className="w-full md:gap-3 gap-8 py-10 md:py-20 md:px-14 px-4 flex flex-col md:flex-row ">
           <div className="md:w-1/2 w-full flex flex-col gap-2">
             <h3 className="text-[1.4rem] font-bold">Rat Control</h3>
-            <p className="text-gray-600text-sm md:text-base">
+            <p className="text-gray-600 text-sm md:text-base">
               Presence of rats inside the premises may lead to serious damage to
               the property as well as to the health of the people around. The
               situation gets worse when they start to breed inside the premises
