@@ -274,7 +274,7 @@ const Rodent = () => {
               suspicious, we will investigate on it. Our technician will offer
               you some great advice on how to protect your property from rats in
               the future. For FREE advice and appointments call RM Pestokill
-              Today. We work 7 days a week from 9:30am – 01:30am.Call us on 020
+              Today. We work 7 days a week from 9:30am – 01:30am. Call us on 020
               8679 3330 or 078 3775 6738
             </p>
           </div>
