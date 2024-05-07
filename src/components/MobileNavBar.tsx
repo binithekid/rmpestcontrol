@@ -46,7 +46,7 @@ const MobileNavBar = () => {
               <div className="flex flex-row gap-2 items-center">
                 <Image src={Logo} alt="Logo" width={50} />
                 <h2 className="text-xl">
-                  <span className="font-bold">RM</span> PEST CONTROL
+                  <span className="font-bold">RM</span> PESTOKILL
                 </h2>
               </div>
             </Link>
