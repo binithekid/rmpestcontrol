@@ -111,10 +111,6 @@ const Flea = () => {
               </li>
               <li className="flex flex-row gap-2 items-center">
                 <FaCheckCircle className="text-blue-900 text-xl" />{" "}
-                <p>Same-day availability & emergency flea pest control</p>
-              </li>
-              <li className="flex flex-row gap-2 items-center">
-                <FaCheckCircle className="text-blue-900 text-xl" />{" "}
                 <p>100% Success Rate</p>
               </li>
               <li className="flex flex-row gap-2 items-center">
