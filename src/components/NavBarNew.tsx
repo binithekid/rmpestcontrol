@@ -44,7 +44,13 @@ const NavBarNew = () => {
                 </Link>
                 <Link href="/services/commercial-control">
                   <p className="hover:text-blue-600">Commercial Control</p>
+                </Link>
+                <Link href="/services/flea-control">
+                  <p className="hover:text-blue-600">Flea Control</p>
                 </Link>{" "}
+                <Link href="/services/heat-treatment">
+                  <p className="hover:text-blue-600">Heat Treatment</p>
+                </Link>
                 <Link href="/services/other-control">
                   <p className="hover:text-blue-600">Other Control</p>
                 </Link>
@@ -56,9 +62,6 @@ const NavBarNew = () => {
                 </Link>
                 <Link href="/services/steam-treatment">
                   <p className="hover:text-blue-600">Steam Treatment</p>
-                </Link>
-                <Link href="/services/termite-control">
-                  <p className="hover:text-blue-600">Termite Control</p>
                 </Link>
               </div>
             </div>

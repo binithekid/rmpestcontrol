@@ -103,6 +103,14 @@ const Flea = () => {
             <ul className="text-gray-600 text-sm md:text-base flex flex-col gap-3">
               <li className="flex flex-row gap-2 items-center">
                 <FaCheckCircle className="text-blue-900 text-xl" />{" "}
+                <p>Same-day availability</p>
+              </li>
+              <li className="flex flex-row gap-2 items-center">
+                <FaCheckCircle className="text-blue-900 text-xl" />{" "}
+                <p>Emergency flea pest control</p>
+              </li>
+              <li className="flex flex-row gap-2 items-center">
+                <FaCheckCircle className="text-blue-900 text-xl" />{" "}
                 <p>Same-day availability & emergency flea pest control</p>
               </li>
               <li className="flex flex-row gap-2 items-center">
@@ -115,7 +123,7 @@ const Flea = () => {
               </li>
               <li className="flex flex-row gap-2 items-center">
                 <FaCheckCircle className="text-blue-900 text-xl" />{" "}
-                <p>Inspection, treatment of fleas & prevention included</p>
+                <p>Inspection, treatment & prevention</p>
               </li>
               <li className="flex flex-row gap-2 items-center">
                 <FaCheckCircle className="text-blue-900 text-xl" />{" "}
@@ -143,21 +151,19 @@ const Flea = () => {
               treatment:
             </p>
 
-            <ul className="mt-2 flex flex-col gap-3 text-gray-600 text-sm md:text-base">
-              <li className="flex flex-row gap-2 items-center">
-                <p>Vacuum carpets, furnishings and upholstery</p>
+            <ul className="mt-2 list-disc flex flex-col gap-3 text-gray-600 text-sm md:text-base">
+              <li className="ml-5">
+                Vacuum carpets, furnishings and upholstery
               </li>
-              <li className="flex flex-row gap-2 items-center">
-                <p>Empty the vacuum cleaner away from your house</p>
+              <li className="ml-5">
+                Empty the vacuum cleaner away from your house
               </li>
-              <li className="flex flex-row gap-2 items-center">
-                <p>
-                  Don&apos;t be present on the same floor where treatment is
-                  taking place.
-                </p>
+              <li className="ml-5">
+                Don&apos;t be present on the same floor where treatment is
+                taking place.
               </li>
-              <li className="flex flex-row gap-2 items-center">
-                <p>Your cat or dog should be out of the property</p>
+              <li className="ml-5">
+                Your cat or dog should be out of the property
               </li>
             </ul>
 
@@ -165,21 +171,16 @@ const Flea = () => {
               After the flea control:
             </p>
             <ul className="mt-2 list-disc flex flex-col gap-3 text-gray-600 text-sm md:text-base">
-              <li className="flex flex-row gap-2 items-center">
-                <p>
-                  Wait at least two hours before returning home after the
-                  service
-                </p>
+              <li className="ml-5">
+                Wait at least two hours before returning home after the service
               </li>
-              <li className="flex flex-row gap-2 items-center">
-                <p>
-                  Upon your return to the property, open all doors and windows.
-                </p>
+              <li className="ml-5">
+                Upon your return to the property, open all doors and windows.
               </li>
-              <li className="flex flex-row gap-2 items-center">
+              <li className="ml-5">
                 <p>Do not vacuum or mop the treated areas for 5 days.</p>
               </li>
-              <li className="flex flex-row gap-2 items-center">
+              <li className="ml-5">
                 <p>Consider repeating the flea treatment in a few weeks.</p>
               </li>
             </ul>
