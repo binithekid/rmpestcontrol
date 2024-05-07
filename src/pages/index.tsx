@@ -10,6 +10,7 @@ import Testimonials from "@/components/Testimonials";
 import { Montserrat } from "next/font/google";
 import Head from "next/head";
 import ServiceHero from "@/components/ServiceHero";
+import NavBarNew from "@/components/NavBarNew";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
@@ -26,6 +27,7 @@ export default function Home() {
 
       <main className={`flex flex-col ${montserrat.className}`}>
         <NavBar />
+        <NavBarNew />
         <MobileNavBar />
         <Hero />
         <Badges />

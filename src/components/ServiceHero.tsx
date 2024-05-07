@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-import BedBug from "../../public/bedbugcard.jpeg";
 import Mouse from "../../public/mousecard.png";
 import { FaChevronRight } from "react-icons/fa";
 import SteamIcon from "../../public/SteamTreatIcon.jpeg";
+import Heat from "../../public/heatcard.jpeg";
 
 const ServiceHero = () => {
   return (
@@ -23,23 +23,24 @@ const ServiceHero = () => {
         <div className="w-full md:w-1/3 bg-white rounded justify-between shadow flex flex-col p-3 md:p-6">
           <div>
             <Image
-              src={BedBug}
+              src={Heat}
               alt="card pic"
               className="object-cover h-[15rem]"
             />
             <div className="pt-4 w-full">
               <h2 className="font-display font-bold text-xl tracking-normal text-gray-800">
-                Bed Bugs Control
+                Heat Treatment
               </h2>
               <p className="text-gray-600 text-sm">
                 {" "}
-                Bed bugs pest control services in norbury SW16, Mitcham Bed bugs
-                control, Bed bugs are usually brought into a home carried on
-                clothing, or in luggage or furniture.
+                Our Heat Treatment Solution stands as the singular method
+                eradicating all life stages of bedbugs and other insects
+                swiftly, distinguishing itself as the ultimate insect
+                elimination treatment.
               </p>
             </div>
           </div>
-          <Link href="/services/bedbugs-control">
+          <Link href="/services/heat-treatment">
             <button className="mt-4 hover:opacity-70 transition-all font-display font-bold tracking-wide py-3 w-full rounded text-white bg-blue-900">
               LEARN MORE
             </button>

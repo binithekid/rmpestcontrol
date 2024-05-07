@@ -1,4 +1,3 @@
-<h3 className="text-[1.4rem] font-bold">Bedbug Control</h3>;
 import NavBar from "@/components/NavBar";
 import { Montserrat } from "next/font/google";
 import Image from "next/image";
@@ -8,6 +7,7 @@ import Footer from "@/components/Footer";
 import MobileNavBar from "@/components/MobileNavBar";
 import Link from "next/link";
 import Head from "next/head";
+import NavBarNew from "@/components/NavBarNew";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
@@ -28,6 +28,7 @@ const Commercial = () => {
       </Head>
       <div className={`flex w-full flex-col ${montserrat.className}`}>
         <NavBar />
+        <NavBarNew />
         <MobileNavBar />
         <div className="px-14 relative border-b ServicesHeight w-full py-20">
           <div

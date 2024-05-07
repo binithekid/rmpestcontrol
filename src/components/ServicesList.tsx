@@ -1,9 +1,9 @@
 import Image from "next/image";
 import BedBug from "../../public/bedbugcard.jpeg";
 import Mouse from "../../public/mousecard.png";
-import Termites from "../../public/termitescard.jpeg";
+import Termites from "../../public/fleacard.jpeg";
 import Cockroach from "../../public/cockroachcard.jpeg";
-import Mosquito from "../../public/mosquitocard.png";
+import Heat from "../../public/heatcard.jpeg";
 import Other from "../../public/otherpestcard.png";
 import Commercial from "../../public/commercialcard.png";
 import Residential from "../../public/residpestcard.png";
@@ -79,17 +79,17 @@ const ServicesList = () => {
               />
               <div className="pt-4 w-full">
                 <h2 className="font-display font-bold text-xl tracking-normal text-gray-800">
-                  Termite Control
+                  Flea Control
                 </h2>
                 <p className="font-light text-sm">
                   {" "}
-                  Termite pest control services in norbury SW16, Mitcham rodent
-                  control. Termitess usually enter the home through holes that
-                  are exposed form the outside or open pipe works.
+                  Flea control services in Norbury SW16, Mitcham pest control.
+                  Fleas usually enter the home through pets but can enter the
+                  home through other avenues as well.
                 </p>
               </div>
             </div>
-            <Link href="/services/termite-control">
+            <Link href="/services/flea-control">
               <button className="mt-4 hover:opacity-70 transition-all font-display font-bold tracking-wide py-3 w-full rounded text-white bg-blue-900">
                 LEARN MORE
               </button>
@@ -126,13 +126,13 @@ const ServicesList = () => {
           <div className="w-full md:w-1/3 bg-white rounded justify-between shadow flex flex-col p-3 md:p-6">
             <div>
               <Image
-                src={Mosquito}
+                src={Heat}
                 alt="card pic"
                 className="object-cover h-[15rem]"
               />
               <div className="pt-4 w-full">
                 <h2 className="font-display font-bold text-xl tracking-normal text-gray-800">
-                  Mosquito Control
+                  Heat Treatment
                 </h2>
                 <p className="font-light text-sm">
                   {" "}
@@ -142,7 +142,7 @@ const ServicesList = () => {
                 </p>
               </div>
             </div>
-            <Link href="/services/mosquito-control">
+            <Link href="/services/heat-treatment">
               <button className="mt-4 hover:opacity-70 transition-all font-display font-bold tracking-wide py-3 w-full rounded text-white bg-blue-900">
                 LEARN MORE
               </button>

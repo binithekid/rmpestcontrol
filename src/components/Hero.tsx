@@ -17,7 +17,7 @@ const Hero = () => {
         <div className="flex flex-row items-center">
           {/* <Image src={Logo} width={70} alt="Hero" /> */}
           <p className="md:text-4xl text-gray-800 text-3xl font-bold">
-            RM <span className="font-normal">PEST CONTROL</span>
+            RM <span className="font-normal">PESTOKILL</span>
           </p>
         </div>
         <p className="md:text-xl text-gray-600 text-lg">

@@ -70,7 +70,7 @@ const NavBar = () => {
           </p>
         </div>
       </div>
-      <div className="flex py-2 justify-between items-center bg-white z-[50] border h-20 flex-row">
+      {/* <div className="flex py-2 justify-between items-center bg-white z-[50] border h-20 flex-row">
         <Link href="/">
           <div className="px-14 hover:opacity-60 transition-all flex -ml-1 flex-row items-center gap-2">
             <Image src={Logo} width={50} alt="Logo" />
@@ -170,7 +170,7 @@ const NavBar = () => {
             </p>
           </Link>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -20,9 +20,9 @@ const MidSection = () => {
           </div>
           <p className="text-2xl text-gray-800 font-medium">Inspection</p>
           <p className="px-6 text-center text-sm text-gray-600">
-            Pest Hub Experts will do a thorough assessment of your home or
-            business and identify pest hideouts, level of infestation, and best
-            treatment to proceed with
+            RM Pestokill&apos;s Experts will do a thorough assessment of your
+            home or business and identify pest hideouts, level of infestation,
+            and best treatment to proceed with
           </p>
         </div>
         <div className="md:w-1/4 w-full flex items-center flex-col gap-3 pt-8">
@@ -53,7 +53,7 @@ const MidSection = () => {
           </div>
           <p className="text-2xl text-gray-800 font-medium">Prevention</p>
           <p className="px-6 text-center text-sm text-gray-600">
-            Pest Hub Experts will do a thorough assessment of your home or
+            RM Pestokill’s Experts will do a thorough assessment of your home or
             business and identify pest hideouts, level of infestation, and best
             treatment to proceed with
           </p>

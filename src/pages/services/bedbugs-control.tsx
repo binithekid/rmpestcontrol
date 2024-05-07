@@ -9,6 +9,7 @@ import Footer from "@/components/Footer";
 import MobileNavBar from "@/components/MobileNavBar";
 import Link from "next/link";
 import Head from "next/head";
+import NavBarNew from "@/components/NavBarNew";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
@@ -29,6 +30,7 @@ const BedBugs = () => {
       </Head>
       <div className={`flex w-full flex-col ${montserrat.className}`}>
         <NavBar />
+        <NavBarNew />
         <MobileNavBar />
         <div className="px-14 relative border-b ServicesHeight w-full py-20">
           <div
