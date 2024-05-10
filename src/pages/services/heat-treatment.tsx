@@ -81,7 +81,7 @@ const Heat = () => {
             </div>
           </div>
         </div>
-        <div className="w-full gap-4 pt-20 md:px-14 px-4 items-center justify-center flex flex-col">
+        <div className="w-full gap-4 pb-10 pt-10 md:pt-20 md:px-14 px-4 items-center justify-center flex flex-col">
           <h3 className="text-[1.4rem] text-gray-800 font-bold">
             RM Pestokill Heat Treatment
           </h3>
