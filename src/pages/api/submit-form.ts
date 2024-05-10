@@ -18,7 +18,7 @@ export default async function handler(req: any, res: any) {
     // Email options
     const mailOptions = {
       from: "onecloudmediauk1@gmail.com",
-      to: "bini.tek1@gmail.com",
+      to: "rmpestokill@gmail.com",
       subject: "RM PEST CONTROL WEBSITE SUBMISSION",
       text: `Name: ${name}\nNumber: ${number}\nEmail: ${email}\nTopic: ${topic}\nPest: ${pestType}\nMessage: ${message}`,
     };
