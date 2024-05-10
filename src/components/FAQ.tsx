@@ -88,7 +88,7 @@ const FAQ = () => {
           ))}
           <p className="text-sm text-gray-500 mt-4 mb-4">
             Other questions or requests? Send us an email to:
-            info@rmpestcontrol.com
+            rmpestokill@gmail.com
           </p>
         </div>
       </div>

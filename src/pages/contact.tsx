@@ -19,7 +19,7 @@ const Contact = () => {
   const [status, setStatus] = useState("");
 
   const handleCall = () => {
-    const phoneNumber = "tel:+447546096173"; // Replace with the desired phone number
+    const phoneNumber = "tel:+442086793330"; // Replace with the desired phone number
     window.location.href = phoneNumber;
   };
 
@@ -51,16 +51,16 @@ const Contact = () => {
               </h1>
               <div className="md:w-3/4">
                 <p className="text-sm mt-1 text-gray-700">
-                  Our goal is to help companies build relationships with their
-                  customers online through great design and technical.
+                  Use the form to contact us in regard to the pest control
+                  services we offer. We will get back to you as soon as we can!
                 </p>
                 <div className="flex flex-col gap-3 mt-4">
                   <a
-                    href="mailto:info@onecloudmedia.uk"
+                    href="mailto:rmpestokill@gmail.com"
                     className="text-gray-700 transition-all hover:opacity-70"
                   >
                     <span className="mr-2">✉️ </span>
-                    info@rmpestcontrol.uk
+                    rmpestokill@gmail.com
                   </a>
 
                   <p

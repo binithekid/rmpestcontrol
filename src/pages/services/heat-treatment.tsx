@@ -81,11 +81,25 @@ const Heat = () => {
             </div>
           </div>
         </div>
+        <div className="w-full gap-4 pt-20 md:px-14 px-4 items-center justify-center flex flex-col">
+          <h3 className="text-[1.4rem] text-gray-800 font-bold">
+            RM Pestokill Heat Treatment
+          </h3>
+          <iframe
+            width="70%"
+            height="500"
+            src="https://www.youtube.com/embed/A4OD6kCQVXo?si=e-EM8kvHzvQ_yd22"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
 
         <div className="w-full md:gap-3 gap-8 py-10 md:py-20 md:px-14 px-4  flex flex-col md:flex-row">
           <div className="md:w-1/2 w-full flex flex-col gap-2">
-            <h3 className="text-[1.4rem] font-bold">
-              Should I do Heat Treatment ?
+            <h3 className="text-[1.4rem] text-gray-800 font-bold">
+              Should I do Heat Treatment?
             </h3>
             <p className="text-gray-600 text-sm md:text-base">
               Many individuals opt for the conventional spray treatment due to
@@ -155,7 +169,9 @@ const Heat = () => {
             />
           </div>{" "}
           <div className="md:w-1/2 md:mb-0 mt-[3rem] md:mt-0 flex flex-col justify-center w-full">
-            <h3 className="text-[1.4rem] font-bold">What to Expect?</h3>
+            <h3 className="text-[1.4rem] text-gray-800 font-bold">
+              What to Expect?
+            </h3>
             <ul className="flex flex-col text-sm md:text-base text-gray-600 gap-2">
               <li>
                 Heat treatment is the ultimate and quickest solution to insect

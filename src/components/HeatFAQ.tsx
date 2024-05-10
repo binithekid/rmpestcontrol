@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import Link from "next/link";
 import React, { useState } from "react";
 import { AiOutlinePlus } from "react-icons/ai";
 
@@ -100,7 +99,7 @@ const HeatFAQ = () => {
           ))}
           <p className="text-sm text-gray-500 mt-4 mb-4">
             Other questions about Heat Treatment? Send us an email to:
-            info@rmpestcontrol.com
+            rmpestokill@gmail.com
           </p>
         </div>
       </div>
