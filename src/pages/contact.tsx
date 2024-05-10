@@ -17,15 +17,52 @@ const Contact = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [status, setStatus] = useState("");
+  const [err, setErr] = useState("");
 
   const handleCall = () => {
     const phoneNumber = "tel:+442086793330"; // Replace with the desired phone number
     window.location.href = phoneNumber;
   };
 
-  const handleSubmit = async (event: any) => {
-    event.preventDefault();
-    console.log("hello");
+  const handleSubmit = async (e: any) => {
+    e.preventDefault();
+    const formData = {
+      name: name,
+      number: number,
+      topic: topic,
+      pestType: pestType,
+      email: email,
+      message: message,
+    };
+
+    setStatus("loading");
+
+    try {
+      const response = await fetch("/api/submit-form", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        setStatus("done");
+        // Reset form after successful submission
+        setName("");
+        setNumber("");
+        setPestType("");
+        setEmail("");
+        setTopic("");
+        setMessage("");
+      } else {
+        console.error("Failed to submit form:", response.statusText);
+        setErr("Error sumbitting form");
+      }
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      setErr("Error sumbitting form");
+    }
   };
 
   return (
@@ -38,7 +75,7 @@ const Contact = () => {
         <title>Contact | RM Pestokill</title>
       </Head>
       <div
-        className={`w-full flex flex-col bg-gradient-to-br from-gray-50 to-white ${montserrat.className}`}
+        className={`w-full flex flex-col bg-gradient-to-b from-gray-100 via-white to-white ${montserrat.className}`}
       >
         <NavBar />
         <NavBarNew />
@@ -119,7 +156,7 @@ const Contact = () => {
               />
               <input
                 required
-                value={email}
+                value={number}
                 onChange={(event) => setNumber(event.target.value)}
                 className="w-full bg-transparent text-gray-800 bg-white border border-gray-300 md:p-3 text-sm md:text-base p-2 rounded"
                 placeholder="Phone Number"
@@ -133,7 +170,7 @@ const Contact = () => {
               />
               <input
                 required
-                value={email}
+                value={pestType}
                 onChange={(event) => setPestType(event.target.value)}
                 className="w-full bg-transparent text-gray-800 bg-white border border-gray-300 md:p-3 text-sm md:text-base p-2 rounded"
                 placeholder="Type of Pest Control Required"
@@ -158,6 +195,7 @@ const Contact = () => {
                   <p>Sent!</p>
                 ) : null}
               </button>
+              {err && <p className="text-red-400 text-sm">{err}</p>}
             </form>
           </div>
         </div>

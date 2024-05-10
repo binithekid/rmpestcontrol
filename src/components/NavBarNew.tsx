@@ -8,7 +8,7 @@ const NavBarNew = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <header className="border-b w-full px-14 py-3 hidden md:flex items-center justify-between">
+    <header className="border-b bg-white w-full px-14 py-3 hidden md:flex items-center justify-between">
       <Link href="/">
         <div className="hover:opacity-60 transition-all flex -ml-1 flex-row items-center gap-2">
           <Image src={Logo} width={45} alt="Logo" />
