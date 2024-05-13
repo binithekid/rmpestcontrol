@@ -156,14 +156,18 @@ const Contact = () => {
               />
               <input
                 required
+                type="text"
+                pattern="[0-9]{11}" // This ensures only numbers are entered and exactly 11 digits
+                maxLength={11} // This ensures exactly 11 characters
                 value={number}
                 onChange={(event) => setNumber(event.target.value)}
                 className="w-full bg-transparent text-gray-800 bg-white border border-gray-300 md:p-3 text-sm md:text-base p-2 rounded"
                 placeholder="Phone Number"
-              />{" "}
+              />
               <input
                 required
                 value={email}
+                type="email"
                 onChange={(event) => setEmail(event.target.value)}
                 className="w-full bg-transparent text-gray-800 bg-white border border-gray-300 md:p-3 text-sm md:text-base p-2 rounded"
                 placeholder="Email"
