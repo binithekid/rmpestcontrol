@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Mouse from "../../public/mousecard.png";
 import { FaChevronRight } from "react-icons/fa";
-import SteamIcon from "../../public/SteamTreatIcon.jpeg";
+import SteamIcon from "../../public/bedbugcard.jpeg";
 import Heat from "../../public/heatcard.jpeg";
 
 const ServiceHero = () => {
@@ -81,18 +81,17 @@ const ServiceHero = () => {
             />
             <div className="pt-4 w-full">
               <h2 className="font-display font-bold text-xl tracking-normal text-gray-800">
-                Steam Treatment
+                Bed Bugs Control
               </h2>
               <p className="text-gray-600 text-sm">
                 {" "}
-                We offer Steam Treatment services to deal with pests. Steam
-                treatment is non-toxic because it relies solely on the power of
-                high-temperature steam to eliminate pests, without the need for
-                chemical pesticides.
+                Bed bugs pest control services in norbury SW16, Mitcham Bed bugs
+                control, Bed bugs are usually brought into a home carried on
+                clothing, or in luggage or furniture.
               </p>
             </div>
           </div>
-          <Link href="/services/steam-treatment">
+          <Link href="/services/bedbugs-control">
             <button className="mt-4 hover:opacity-70 transition-all font-display font-bold tracking-wide py-3 w-full rounded text-white bg-blue-900">
               LEARN MORE
             </button>
