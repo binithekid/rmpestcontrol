@@ -28,7 +28,7 @@ const Sidebar = ({
       >
         <button
           className="flex text-3xl text-black items-center cursor-pointer fixed pl-6 top-6 hover:cursor-pointer mb-20"
-          onClick={() => setShowSidebar(!showSidebar)}
+          onClick={() => setShowSidebar(false)}
         >
           <GrFormClose className="hover:cursor-pointer ease-in-out duration-300 hover:opacity-40" />
         </button>

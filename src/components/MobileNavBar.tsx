@@ -40,7 +40,7 @@ const MobileNavBar = () => {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.3, ease: "easeInOut" }}
-            className="w-full flex py-2 items-center justify-between"
+            className="w-full flex py-4 items-center justify-between"
           >
             <Link href="/">
               <div className="flex flex-row gap-2 items-center">
